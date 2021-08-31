@@ -122,7 +122,7 @@
                 object-fit: cover;
             }
 
-            .menutile {
+            img.menutile {
                 object-fit: contain;
             }
 
