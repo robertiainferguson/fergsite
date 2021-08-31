@@ -1,0 +1,161 @@
+ <style>
+            html {
+                scroll-behavior: smooth;
+            }
+
+            body {
+                position: relative;
+            }
+
+            .container-name-header{
+                position:fixed;
+                top:100px;
+                left: 100px;
+                margin: none;
+                padding: none;
+                font-family: Anaheim;
+                font-size: 50px;
+                color: black;
+                text-align: right;
+                width: 200px;
+            }
+            .container-menu-list {
+                position: fixed;
+                top:100px;
+                left: 300px;
+                margin: none;
+                padding: none;
+                width: 500px;
+                background-color: none;
+                text-align: left;
+            }
+
+            ul.menu-list{
+                font-family: Anaheim;
+                font-size: 50px;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            li a.menu-list {
+                text-decoration: none;
+                color: black;
+            }
+
+            li a.menu-list:hover {
+                color: rgb(55, 0, 255)
+            }
+
+            .scroll-container {
+                position: absolute;
+                max-width: 800px;
+                left: 600px;
+                top: 100px;
+                margin-right: 400px;
+                padding: 0;
+                font-family: Anaheim;
+                font-size: 25px;
+            }
+
+            #about {
+                position: absolute;
+                top: -100px;
+                font-family: Anaheim;
+                font-size: 25px;
+                background-color: grey;
+            }
+
+            #work {
+                position: absolute;
+                top: -100px;
+                padding: 0;
+                font-family: Anaheim;
+                font-size: 25px;
+                background-color: grey;
+            }
+
+            #contact {
+                position: absolute;
+                top: -100px;
+                padding: 0;
+                font-family: Anaheim;
+                font-size: 25px;
+                background-color: grey;
+            }
+
+            #blog {
+                position: absolute;
+                top: -100px;
+                padding: 0;
+                font-family: Anaheim;
+                font-size: 25px;
+                background-color: grey;
+            }
+
+            .container-content {
+                position: relative;
+                margin-bottom: 100px;
+                font-family: Anaheim;
+                font-size: 25px;
+            }
+
+            .projects-grid {
+                display: grid;
+                margin: 0;
+                padding: 0;
+                grid-gap: 10px;
+                grid-template-columns: repeat(3, 260px);
+                grid-template-rows: repeat(4, 260px);
+            }
+
+            .projects-grid-item {
+                position: relative;
+                margin: 0;
+                padding: 0;
+                
+            }
+
+            .mothwalk {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .projects-grid-selection-overlay {
+                position: absolute;
+                top:0;
+                bottom:0;
+                left:0;
+                right:0;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                transition: 0.5s ease;
+                background-color: white;
+            }
+
+            .projects-grid-item:hover .projects-grid-selection-overlay {
+                opacity: 1.0;
+            }
+
+            .projects-grid-selection-text {
+                color: black;
+                font-size: 25px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+
+            ul.contact-info-list{
+                list-style-type:none;
+                margin: 0;
+                padding: 0;
+            }
+
+            span.highlight {
+                color: rgb(55, 0, 255);
+            }
+        </style>
