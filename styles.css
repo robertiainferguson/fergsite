@@ -122,10 +122,6 @@
                 object-fit: cover;
             }
 
-            .menutile {
-                object-fit: cover;
-            }
-
             .projects-grid-selection-overlay {
                 position: absolute;
                 top:0;
