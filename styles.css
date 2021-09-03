@@ -163,4 +163,8 @@
             span.highlight {
                 color: rgb(55, 0, 255);
             }
+
+            span.bold {
+                font-weight: 600;
+            }
         </style>
