@@ -38,6 +38,11 @@
                 padding: 0;
             }
 
+            li a.menu-list-dead {
+                text-decoration: none;
+                color: rgb(55, 0, 255);
+            }
+
             li a.menu-list {
                 text-decoration: none;
                 color: black;
