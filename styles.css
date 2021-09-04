@@ -16,11 +16,11 @@
                 margin: none;
                 padding: none;
                 font-family: Anaheim;
-                font-size: 50px;
+                font-size: 3rem;
                 color: black;
                 text-align: right;
                 width: 12rem;
-                transform: translate(0,1ex);
+                transform: translate(0,-1em);
             }
             .container-menu-list {
                 position: fixed;
