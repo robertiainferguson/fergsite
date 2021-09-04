@@ -51,7 +51,7 @@
             }
 
             .scroll-container {
-                position: inline;
+                position: fixed;
 		margin: 10rem 10px 10px 0
 		max-width: 800px
                 padding: 0;
