@@ -1,4 +1,4 @@
- <style>
+  <style>
             html {
                 scroll-behavior: smooth;
                 font-size: 1em;
@@ -9,27 +9,14 @@
                 margin: none;
             }
 
-            .container-name-header{
-                position:fixed;
-                top:10%;
-                left: 10%;
-                margin: none;
-                padding: none;
-                font-family: Anaheim;
-                font-size: 3rem;
-                color: black;
-                text-align: right;
-                width: 12rem;
-                transform: translate(0,-1em);
-            }
             .container-menu-list {
                 position: fixed;
-                top:10%;
+                top: 10%;
                 left: 10%;
                 margin: none;
                 padding: none;
                 width: 30rem;
-                background-color: none;
+                background-color: grey;
                 text-align: left;
             }
 
@@ -41,9 +28,16 @@
                 padding: 0;
             }
 
-            li a.menu-list-hidden {
-                text-decoration: none;
-                color: #FFFFFF;
+            span.robert {
+                position:fixed;
+                margin: none;
+                padding: none;
+                font-family: Anaheim;
+                font-size: 3rem;
+                text-align: right;
+                width: 12rem;
+								background-color:lightgrey;
+                transform: translate(-12rem,0);
             }
 
             li a.menu-list {
@@ -51,17 +45,7 @@
                 color: #000000;
             }
 
-            li a.menu-list-header {
-                text-decoration: none;
-                color: #000000;
-                font-weight: bold;
-            }
-
             li a.menu-list:hover {
-                color: rgb(55, 0, 255)
-            }
-
-            li a.menu-list-header:hover {
                 color: rgb(55, 0, 255)
             }
 
@@ -74,6 +58,7 @@
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 25px;
+								background-color:lightgrey;
             }
 
             #about {
