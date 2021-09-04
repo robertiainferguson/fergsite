@@ -37,7 +37,7 @@
                 font-size: 3rem;
                 text-align: right;
                 width: 12rem;
-								background-color:lightgrey;
+		background-color:lightgrey;
                 transform: translate(-12rem,0);
             }
 
@@ -59,7 +59,7 @@
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 25px;
-								background-color:lightgrey;
+		background-color:lightgrey;
             }
 
             #about {
@@ -67,7 +67,7 @@
                 top: -100px;
                 font-family: Anaheim;
                 font-size: 25px;
-                background-color: grey;
+                background-color: none;
             }
 
             #work {
@@ -76,7 +76,7 @@
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 25px;
-                background-color: grey;
+                background-color: none;
             }
 
             #contact {
@@ -85,7 +85,7 @@
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 25px;
-                background-color: grey;
+                background-color: none;
             }
 
             #blog {
@@ -94,7 +94,7 @@
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 25px;
-                background-color: grey;
+                background-color: none;
             }
 
             .container-content {
