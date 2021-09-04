@@ -22,8 +22,8 @@
             }
             .container-menu-list {
                 position: fixed;
-                top:100px;
-                left: 300px;
+                top:10%;
+                left: 30%;
                 margin: none;
                 padding: none;
                 width: 500px;
