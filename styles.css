@@ -48,16 +48,20 @@
 
             li a.menu-list {
                 text-decoration: none;
-                color: black;
+                color: #000000;
             }
 
             li a.menu-list-header {
                 text-decoration: none;
-                color: black;
+                color: #000000;
                 font-weight: bold;
             }
 
             li a.menu-list:hover {
+                color: rgb(55, 0, 255)
+            }
+
+            li a.menu-list-header:hover {
                 color: rgb(55, 0, 255)
             }
 
