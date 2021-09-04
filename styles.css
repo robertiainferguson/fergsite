@@ -108,8 +108,8 @@
                 margin: 0;
                 padding: 0;
                 grid-gap: 10px;
-                grid-template-columns: repeat(3, 260px);
-                grid-template-rows: repeat(4, 260px);
+                grid-template-columns: repeat(3, 33%);
+                grid-template-rows: repeat(4, 33%);
             }
 
             .projects-grid-item {
