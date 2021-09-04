@@ -5,12 +5,13 @@
 
             body {
                 position: relative;
+                margin: none;
             }
 
             .container-name-header{
                 position:fixed;
-                top:100px;
-                left: 100px;
+                top:10%;
+                left: 10%;
                 margin: none;
                 padding: none;
                 font-family: Anaheim;
