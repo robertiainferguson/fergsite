@@ -19,7 +19,7 @@
                 font-size: 50px;
                 color: black;
                 text-align: right;
-                width: 200px;
+                width: 12rem;
                 transform: translate(0,1ex);
             }
             .container-menu-list {
@@ -28,7 +28,7 @@
                 left: 10%;
                 margin: none;
                 padding: none;
-                width: 500px;
+                width: 30rem;
                 background-color: none;
                 text-align: left;
             }
