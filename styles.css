@@ -18,6 +18,7 @@
                 width: 30rem;
                 background-color: grey;
                 text-align: left;
+		transform: translate(12rem,0);
             }
 
             ul.menu-list{
@@ -36,7 +37,7 @@
                 font-size: 3rem;
                 text-align: right;
                 width: 12rem;
-								background-color:lightgrey;
+		background-color:lightgrey;
                 transform: translate(-12rem,0);
             }
 
@@ -58,7 +59,7 @@
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 25px;
-								background-color:lightgrey;
+		background-color:lightgrey;
             }
 
             #about {
