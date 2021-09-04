@@ -36,9 +36,9 @@
                 font-family: Anaheim;
                 font-size: 3rem;
                 text-align: right;
-                width: 6rem;
+                width: 12rem;
 		background-color:lightgrey;
-                transform: translate(-6rem,0);
+                transform: translate(-12rem,0);
             }
 
             li a.menu-list {
