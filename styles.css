@@ -11,7 +11,7 @@
             }
 	    
 	    .header-bar {
-		 position:absolute;
+		 position:fixed;
 		 margin: none;
 		 padding: none;
 		 background-color:white;
