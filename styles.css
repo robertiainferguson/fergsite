@@ -53,8 +53,7 @@
             .scroll-container {
                 position: inline;
 		margin: 10rem 10px 10px 0
-		<!--max-width: 800px;-->
-                margin-right: 10rem;
+		max-width: 800px
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 25px;
