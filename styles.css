@@ -30,7 +30,7 @@
             }
 
             span.robert {
-                position:fixed;
+                position:relative;
                 margin: none;
                 padding: none;
                 font-family: Anaheim;
