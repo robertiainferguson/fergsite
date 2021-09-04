@@ -9,6 +9,14 @@
                 width: 100vw;
                 background-color:white;
             }
+	    
+	    .header-bar {
+		 position:absolute;
+		 margin: none;
+		 padding: none;
+		 background-color:white;
+		 width: 100%;
+            }
 
             .container-menu-list {
                 position: fixed;
