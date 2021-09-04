@@ -17,13 +17,13 @@
                 margin: none;
                 padding: none;
                 width: 25rem;
-                background-color: none;
+                background-color: grey;
                 text-align: left;
             }
 
             ul.menu-list{
                 font-family: Anaheim;
-                font-size: 50px;
+                font-size: 3rem;
                 list-style-type: none;
                 margin: 0;
                 padding: 0;
@@ -53,23 +53,14 @@
             .scroll-container {
                 position: absolute;
                 max-width: 1000px;
-                left: 30rem;
-                top: 5rem;
-                margin-right: 3rem;
+                left: 40rem;
+                top: 9rem;
+                margin-right: 6rem;
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 2rem;
-		background-color:none;
+		background-color:lightgrey;
             }
-
-	    @media only screen and (max-width: 768px) {
-		    [class="projects-grid"] {
-			width:100%;
-			display: grid;
-			margin: 0;
-			padding: 0;
-		    }
-	   }
 
             #about {
                 position: absolute;
@@ -122,6 +113,15 @@
                 grid-template-columns: repeat(3, 33%);
                 grid-template-rows: repeat(4, 33%);
             }
+
+	    @media only screen and (max-width: 768px) {
+		    [class="projects-grid"] {
+			width:100%;
+			display: grid;
+			margin: 0;
+			padding: 0;
+		    }
+	    }
 
             .projects-grid-item {
                 position: relative;
