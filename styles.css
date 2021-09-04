@@ -33,6 +33,18 @@
 		z-index:2;
             }
 
+            .header-bar-text {
+                position: fixed;
+                top: 3rem;
+                right: 14rem;
+                margin: none;
+                padding: none;
+                width: 25rem;
+                background-color: grey;
+                text-align: right;
+		z-index:2;
+            }
+
             ul.menu-list{
                 font-family: Anaheim;
                 font-size: 3rem;
