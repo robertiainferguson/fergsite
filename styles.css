@@ -20,6 +20,7 @@
                 color: black;
                 text-align: right;
                 width: 200px;
+                transform: translate(0,1ex);
             }
             .container-menu-list {
                 position: fixed;
@@ -42,7 +43,7 @@
 
             li a.menu-list-hidden {
                 text-decoration: none;
-                color: none;
+                color: white;
             }
 
             li a.menu-list {
