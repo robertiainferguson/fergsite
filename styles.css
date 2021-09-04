@@ -51,9 +51,11 @@
             }
 
             .scroll-container {
-                position: fixed;
-		margin: 10rem 10px 10px 0
-		max-width: 800px
+                position: absolute;
+                max-width: 800px;
+                left: 600px;
+                top: 100px;
+                margin-right: 400px;
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 25px;
