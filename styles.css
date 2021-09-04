@@ -105,6 +105,7 @@
             }
 
             .projects-grid {
+		width:100%;
                 display: grid;
                 margin: 0;
                 padding: 0;
