@@ -60,6 +60,7 @@
 
             .scroll-container {
                 position: absolute;
+		z-index: -1;
                 max-width: 1000px;
                 left: 40rem;
                 top: 8rem;
