@@ -1,7 +1,7 @@
  <style>
             html {
                 scroll-behavior: smooth;
-                font-size: 1em;
+                font-size: 16px;
             }
 
             body {
@@ -12,7 +12,7 @@
 
             .container-menu-list {
                 position: fixed;
-                top: 5rem;
+                top: 4rem;
                 left: 14rem;
                 margin: none;
                 padding: none;
@@ -52,13 +52,13 @@
 
             .scroll-container {
                 position: absolute;
-                max-width: 800px;
+                max-width: 1000px;
                 left: 600px;
-                top: 100px;
-                margin-right: 400px;
+                top: 4rem;
+                margin-right: 1rem;
                 padding: 0;
                 font-family: Anaheim;
-                font-size: 25px;
+                font-size: 2rem;
 		background-color:lightgrey;
             }
 
