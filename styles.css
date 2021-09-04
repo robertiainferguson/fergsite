@@ -51,6 +51,12 @@
                 color: black;
             }
 
+            li a.menu-list-header {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+
             li a.menu-list:hover {
                 color: rgb(55, 0, 255)
             }
