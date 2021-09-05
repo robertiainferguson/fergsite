@@ -10,7 +10,7 @@
                 background-color:none;
             }
 	    ::selection {
-		background-color:yellow;
+		background-color:DDD4FF;
             }
 	    
 	    .header-bar {
