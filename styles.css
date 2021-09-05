@@ -54,7 +54,8 @@
                 top: 16rem;
                 margin: none;
                 padding: none;
-                width: 10rem;
+                width: 20rem;
+		margin-bottom: 3rem;
                 background-color: pink;
                 text-align: left;
 		z-index:2;
