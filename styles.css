@@ -110,7 +110,7 @@
 
             #about {
                 position: absolute;
-                top:-7rem;
+                top:-6rem;
                 font-family: Anaheim;
                 font-size: 25px;
                 background-color: none;
@@ -118,7 +118,7 @@
 
             #work {
                 position: absolute;
-                top:-7rem;
+                top:-6rem;
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 25px;
@@ -127,7 +127,7 @@
 
             #contact {
                 position: absolute;
-                top:-7rem;
+                top:-6rem;
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 25px;
@@ -136,7 +136,7 @@
 
             #blog {
                 position: absolute;
-                top:-7rem;
+                top:-6rem;
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 25px;
