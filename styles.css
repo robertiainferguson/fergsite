@@ -145,7 +145,7 @@
                 padding: 0;
                 grid-gap: 0.5%;
                 grid-template-columns: repeat(3, 33%);
-                grid-template-rows: repeat(4, 33%);
+                grid-auto-rows: minmax(100px, 260px);
             }
 
             .projects-grid-item {
