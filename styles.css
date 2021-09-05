@@ -55,7 +55,7 @@
                 margin: none;
                 padding: none;
                 width: 20rem;
-		margin-bottom: 3rem;
+		height:auto;
                 background-color: pink;
                 text-align: left;
 		z-index:2;
@@ -63,8 +63,8 @@
 
 	    p.description {
 	    	position:fixed;
-		width: 100%;
 		font-family: Anaheim;
+		width:100%
 		font-size: 1rem;
 		margin:0;
 		padding:0;
