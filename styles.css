@@ -14,7 +14,7 @@
 		background-color:DDD4FF;
             }
 
-	    site-content {
+	    .site-content {
 		margin: auto;
 		max-width: 1000px;
 	    }
