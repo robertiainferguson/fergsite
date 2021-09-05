@@ -55,13 +55,13 @@
                 margin: none;
                 padding: none;
                 width: 20rem;
-		height:50rem;
+		height:25rem;
                 background-color: pink;
                 text-align: left;
 		z-index:2;
             }
 
-	    p.description {
+	    .desc {
 	    	position:fixed;
 		font-family: Anaheim;
 		width:100%;
