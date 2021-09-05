@@ -7,7 +7,7 @@
             body {
                 margin: 0;
                 width: 100vw;
-                background-color:yellow;
+                background-color:pink;
             }
 	    
 	    .header-bar {
@@ -27,7 +27,7 @@
                 left: 14rem;
                 margin: none;
                 padding: none;
-                width: 25rem;
+                width: 20rem;
                 background-color: grey;
                 text-align: left;
 		z-index:2;
