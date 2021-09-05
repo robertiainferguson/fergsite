@@ -7,7 +7,7 @@
             body {
 		width: 100vw;
 		margin: none;
-                background-color:none;
+                background-color:yellow;
             }
 
 	    ::selection {
