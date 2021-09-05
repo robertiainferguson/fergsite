@@ -146,7 +146,7 @@
                 padding: 0;
                 grid-gap: 0.5%;
                 grid-template-columns: repeat(3, 33%);
-                grid-template-rows: repeat(3, 33%);
+                grid-template-rows: repeat(5, 33%);
             }
 
 	    @media only screen and (max-width: 768px) {
@@ -155,6 +155,7 @@
 			display: grid;
 			margin: 0;
 			padding: 0;
+			grid-template-columns: repeat(1, 100%);
 		    }
 	    }
 
