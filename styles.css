@@ -57,7 +57,7 @@
                 width: 20rem;
                 background-color: lightgrey;
                 text-align: left;
-		z-index:2;
+		z-index:3;
             }
 
 	    .description {
