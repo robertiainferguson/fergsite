@@ -160,8 +160,8 @@
 		grid-column: 1/2;
             }
 
-	    @media only screen and (max-width: 768px) {
-		    [class="projects-grid"] {
+	    @media only screen and (max-width: 800px) {
+		    [class="square-container"] {
 			width:100%;
 			display: grid;
 			margin: 0;
