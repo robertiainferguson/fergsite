@@ -5,13 +5,19 @@
             }
 
             body {
-		margin:auto;
-		max-width:800px;
+		width: 100vw;
+		margin: none;
                 background-color:none;
             }
+
 	    ::selection {
 		background-color:DDD4FF;
             }
+
+	    site-content {
+		margin: auto;
+		max-width: 1000px;
+	    }
 	    
 	    .header-bar {
 		 position:fixed;
