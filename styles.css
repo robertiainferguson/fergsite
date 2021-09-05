@@ -19,7 +19,7 @@
 		margin-top:0;
 		margin-bottom:0;
 		max-width: 1000px;
-		background-color:none;
+		background-color:pink;
 	    }
 	    
 	    .header-bar {
@@ -103,7 +103,7 @@
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 2rem;
-		background-color:none;
+		background-color:lightgrey;
             }
 
             #about {
