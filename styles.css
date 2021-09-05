@@ -56,6 +56,14 @@
                 padding: 0;
             }
 
+            ul.info{
+                font-family: Anaheim;
+                font-size: 2rem;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }		
+
             span.robert {
                 position:fixed;
                 margin: none;
