@@ -46,7 +46,7 @@
                 width: 20rem;
                 background-color: none;
                 text-align: left;
-		z-index:2;
+		z-index:1;
             }
 
             .container-project {
@@ -57,10 +57,10 @@
                 width: 10rem;
                 background-color: pink;
                 text-align: left;
-		z-index:3;
+		z-index:2;
             }
 
-	    .description {
+	    p.description {
 	    	position:fixed;
 		width: 100%;
 		font-family: Anaheim;
