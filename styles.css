@@ -94,7 +94,7 @@
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 2rem;
-		background-color:lightgrey;
+		background-color:none;
             }
 
             #about {
@@ -137,7 +137,7 @@
                 margin-bottom: 100px;
                 font-family: Anaheim;
                 font-size: 25px;
-		background-color: yellow;
+		background-color: none;
             }
 
             .projects-grid {
