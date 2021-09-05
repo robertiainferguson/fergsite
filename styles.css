@@ -53,12 +53,19 @@
                 padding: 0;
             }
 
+	    ul.menu-list{
+		font-family: Anaheim;
+                font-size: 25px;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
             span.robert {
                 position:fixed;
                 margin: none;
                 padding: none;
                 font-family: Anaheim;
-                font-size: 3rem;
                 text-align: right;
                 width: 12rem;
 		background-color:none;
