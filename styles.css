@@ -9,6 +9,9 @@
                 width: 100vw;
                 background-color:none;
             }
+	    :: selection {
+		background-color:yellow;
+            }
 	    
 	    .header-bar {
 		 position:fixed;
