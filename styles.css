@@ -5,8 +5,8 @@
             }
 
             body {
-                padding-left: 8vw;
-		padding-right: 8vw;
+                margin-left: 8vw;
+		margin-right: 8vw;
                 width: 100vw;
                 background-color:none;
             }
