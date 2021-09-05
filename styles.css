@@ -5,9 +5,8 @@
             }
 
             body {
-                margin-left: 8vw;
-		margin-right: 8vw;
-                width: 100vw;
+		margin:auto;
+		max-width:1200px;
                 background-color:none;
             }
 	    ::selection {
