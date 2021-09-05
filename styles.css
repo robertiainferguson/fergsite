@@ -95,9 +95,8 @@
 
             .scroll-container {
                 position: relative;
-                max-width: 800px;
-		left: 31rem;
                 top: 7rem;
+		margin-left:20rem;
 		margin-right:3rem;
                 padding: 0;
                 font-family: Anaheim;
