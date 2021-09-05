@@ -211,4 +211,25 @@
             span.highlight {
                 color: rgb(55, 0, 255);
             }
+
+		.square-container {
+		  display: grid;
+		  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+		  grid-gap: 10px;
+		}
+
+		.square {
+		  background: grey;
+		  padding-top: 100%; /* padding trick directly on the grid item */
+		  box-sizing: border-box;
+		  position: relative;
+		}
+
+		.square .content { /* absolutely positioned */
+		  position: absolute;
+		  top: 0;
+		  right:0;
+		  left: 0;
+		  bottom: 0;
+		}
         </style>
