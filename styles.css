@@ -220,7 +220,7 @@
 		}
 
 		.square {
-		  background: grey;
+		  background: none;
 		  padding-top: 100%; /* padding trick directly on the grid item */
 		  box-sizing: border-box;
 		  position: relative;
