@@ -144,9 +144,21 @@
                 display: grid;
                 margin: 0;
                 padding: 0;
-                grid-gap: 0.5%;
-                grid-template-columns: repeat(3, 33%);
-                grid-template-rows: repeat(5);
+                grid-template-columns: repeat(auto-fill, minmax(8rem,1fr));
+                grid-auto-rows: 1fr;
+            }
+
+            .projects-grid::before {
+                content:'';
+		width: 0;
+		padding-bottom:100%;
+		grid-row: 1/1;
+		grid-column: 1/1;
+            }
+
+            .projects-grid > *first-child {
+		grid-row:1/1;
+		grid-column:1/1;
             }
 	
 	    .bio {
@@ -162,12 +174,6 @@
 			grid-template-columns: repeat(1, 100%);
 		    }
 	    }
-
-            .projects-grid-item {
-                position: relative;
-                margin: 0;
-                padding: 0;    
-            }
 
             .menutile {
                 width: 100%;
