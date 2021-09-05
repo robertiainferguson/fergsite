@@ -87,7 +87,7 @@
 
             .scroll-container {
                 position: absolute;
-                max-width: 800px;
+                max-width: 600px;
                 right: 3rem;
 		margin-left:30rem
                 top: 7rem;
