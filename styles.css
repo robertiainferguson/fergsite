@@ -5,7 +5,8 @@
             }
 
             body {
-                margin: 0;
+                padding-left: 8vw;
+		padding-right: 8vw;
                 width: 100vw;
                 background-color:none;
             }
