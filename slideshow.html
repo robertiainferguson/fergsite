@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://robertiainferguson.github.io/fergsite/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anaheim">
+  </head>
+
+<style>
+  body {
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  html {
+                scroll-behavior: smooth;
+  }
+  .mySlides {display:none;}
+  .w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
+  .w3-content,.w3-auto{margin-left:auto;margin-right:auto}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
+  .btn-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+  .btn-right{position:absolute;top:-30px;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+  .btn-style{color:#000000;background:none;border:none;font-size:50px;cursor:pointer;}
+  .btn-style:hover{color:rgb(55, 0, 255);}
+</style>
+
+<body>
+        <div class = "scroll-container">
+            <div class = "container-content">
+              <a id = "about"></a>
+              <div class="w3-content w3-display-container">
+                <img src="images/buckaroos.jpg" style="width:100%" class="mySlides">
+                <img src="images/spilled.JPG" style="width:100%" class="mySlides">
+
+                <!--<button class="btn-style btn-left" onclick="plusDivs(-1)">&#x2039;</button>-->
+                <button class="btn-style btn-right" onclick="plusDivs(1)">&#x203A;</button>
+              </div>
+
+              <script>
+              var slideIndex = 1;
+              showDivs(slideIndex);
+
+              function plusDivs(n) {
+                showDivs(slideIndex += n);
+              }
+
+              function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";  
+                }
+                x[slideIndex-1].style.display = "block";  
+              }
+              </script>
+            </div>
+</body>
+</html>
