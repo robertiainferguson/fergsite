@@ -11,8 +11,9 @@
             }
   </style>
     <script>
-        $('a.menu-list').click(function() { 
-            ul.menu-list.children().('.selected-menu-item').removeClass('.selected-menu-item');
+        $('a.menu-list').click(function() {
+            menuItems = document.getElementsByClassName('selected-menu-item')
+            menuItems.removeClass('.selected-menu-item');
             $(this).addClass('.selected-menu-item'); 
         }
     </script>
