@@ -283,10 +283,11 @@
 		}
 
 		.site-footer {
-		position: relative;
-		bottom: 3rem;
-                font-family: Anaheim;
-                font-size: 1rem;
-		background-color: none;
+			position: relative;
+			bottom: 3rem;
+			font-family: Anaheim;
+			font-size: 1rem;
+			background-color: none;
+			text-align: right;
 		}
         </style>
