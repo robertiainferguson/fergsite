@@ -153,20 +153,16 @@
            
 
             #about {
-              background-color:pink;
             }
 
             #work {
-              background-color:yellow;
-              padding-top:7.2rem;
+              padding-top:6.5rem;
             }
 
             #contact {
-              background-color:green;
             }
 
             #blog {
-              background-color:red;
             }
 
             .projects-grid {
