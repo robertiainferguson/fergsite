@@ -124,8 +124,9 @@
             }
             
             ul.menu-list li a.selected-list-item{
-              text-decoration: underline wavy;
+              text-decoration: underline;
               text-decoration-color:rgb(55, 0, 255);
+	      text-decoration-thickness: from-font;
               color:rgb(55, 0, 255);
             }
 
