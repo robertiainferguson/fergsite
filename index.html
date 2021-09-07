@@ -12,27 +12,29 @@
   </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
-        const sections = document.querySelectorAll('.container-content');
-        const navLi = document.querySelectorAll('ul.menu-list li a');
+        $(document).ready(function () {
+            const sections = document.querySelectorAll('.container-content');
+            const navLi = document.querySelectorAll('ul.menu-list li a');
 
-        window.addEventListener('scroll', () => {
-          let current = "";
-          sections.forEach((section) => {
-            const sectionTop = section.offsetTop;
-            const sectionHeight = section.clientHeight;
-                const sectionBot = sectionTop + sectionHeight;
-            const headerHeight = ('.robert').offsetTop;
-            if (pageYOffset > sectionTop && pageYOffset <= sectionBot) {
-              current = section.getAttribute('id');
-            }
-          });
+            window.addEventListener('scroll', () => {
+              let current = "";
+              sections.forEach((section) => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                    const sectionBot = sectionTop + sectionHeight;
+                const headerHeight = ('.robert').offsetTop;
+                if (pageYOffset > sectionTop && pageYOffset <= sectionBot) {
+                  current = section.getAttribute('id');
+                }
+              });
 
-          navLi.forEach((listItem) => {
-            listItem.classList.remove('selected-list-item');
-            if (listItem.classList.contains(current)) {
-              listItem.classList.add('selected-list-item');
-            }
-          });
+              navLi.forEach((listItem) => {
+                listItem.classList.remove('selected-list-item');
+                if (listItem.classList.contains(current)) {
+                  listItem.classList.add('selected-list-item');
+                }
+              });
+            });
         });
     </script>
     <body>
