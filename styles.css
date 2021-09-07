@@ -6,6 +6,7 @@
 
             body {
 		width: 100%;
+    height:100%;
 		margin: 0;
 		padding: 0;
                 background-color:none;
@@ -17,15 +18,15 @@
             }
 
 	    .site-content {
-		position: relative;
 		width:100%;
+    height:100%;
 		margin: auto;
 		margin-top:0;
 		margin-bottom:0;
 		max-width: 1000px;
 		background-color:none;
 	    }
-	    
+	    /*
 	    .header-bar {
 		 position:fixed;
 		 margin: none;
@@ -36,6 +37,7 @@
 		 text-align: right;
 		 z-index: 1;
             }
+     */
 
             .container-menu-list {
                 position: relative;
@@ -56,7 +58,6 @@
                 padding: none;
                 width: 20rem;
 		height:auto;
-                background-color: pink;
                 text-align: left;
             }
 
@@ -64,12 +65,12 @@
 	    	position:fixed;
 		font-family: Anaheim;
 		width: 20rem;
-		height:auto%;
+		height:auto;
 		font-size: 1rem;
 		margin:0;
 		padding:0;
 	    }
-
+/*
             .header-bar-text {
                 position: fixed;
                 top: 3rem;
@@ -79,8 +80,9 @@
                 width: 25rem;
                 background-color: none;
                 text-align: right;
-		z-index:2;
+		            z-index:2;
             }
+            */
 
             ul.menu-list{
 		position:fixed;
@@ -92,13 +94,13 @@
             }
 
             ul.info{
-		position:fixed;
+		            position:fixed;
                 font-family: Anaheim;
                 font-size: 1rem;
                 list-style-type: none;
                 margin: 0;
                 padding: 0;
-		transform: translate(0,30rem);
+		            transform: translate(0,30rem);
             }		
 
             span.robert {
@@ -108,81 +110,63 @@
                 font-family: Anaheim;
                 text-align: right;
                 width: 6ch;
-		background-color:none;
+		            background-color:none;
                 transform: translate(-6ch,0);
             }
 
-            .list-item {
-                text-decoration: none;
-                color: #000000;
-            }
-
-            .list-item:hover {
+           ul.menu-list li a:hover {
                 color: rgb(55, 0, 255)
             }
             
-            .selected-list-item{
-		text-decoration: underline wavy;
-		text-decoration-color:rgb(55, 0, 255);
-    text-decoration-thickness: from-font;
-    color:rgb(55, 0, 255);
+            ul.menu-list li a {
+                text-decoration:none;
+                color:black;
+            }
+            
+            ul.menu-list li a.selected-list-item{
+              text-decoration: underline wavy;
+              text-decoration-color:rgb(55, 0, 255);
+              color:rgb(55, 0, 255);
             }
 
             .scroll-container {
-                position: relative;
+                position:relative;
                 top: 6rem;
-		margin-left:23rem;
+		            margin-left:23rem;
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 2rem;
-		background-color:none;
+		            background-color:light-grey;
+                height: auto;
             }
-
-            #about {
-                position: absolute;
-                height:100%;
-                top:-6.4rem;
+            
+            .container-content {
+                padding-top: 6.5rem;
+                position:relative;
+                width:100%;
+                height:auto;
                 font-family: Anaheim;
                 font-size: 25px;
-                background-color: none;
+		            background-color: none;
+                padding-bottom:100px;
+            }
+           
+
+            #about {
+              background-color:pink;
             }
 
             #work {
-                position: absolute;
-                height:100%;
-                top:-6rem;
-                padding: 0;
-                font-family: Anaheim;
-                font-size: 25px;
-                background-color: blue;
+              background-color:yellow;
+              padding-top:7.2rem;
             }
 
             #contact {
-                position: absolute;
-                height:100%;
-                top:-6rem;
-                padding: 0;
-                font-family: Anaheim;
-                font-size: 25px;
-                background-color: none;
+              background-color:green;
             }
 
             #blog {
-                position: absolute;
-                height:100%;
-                top:-6rem;
-                padding: 0;
-                font-family: Anaheim;
-                font-size: 25px;
-                background-color: none;
-            }
-
-            .container-content {
-                position: relative;
-                margin-bottom: 100px;
-                font-family: Anaheim;
-                font-size: 25px;
-		background-color: none;
+              background-color:red;
             }
 
             .projects-grid {
@@ -200,7 +184,7 @@
                 padding: 0;
                 
             }
-
+/*
 	    @media only screen and (max-width: 800px) {
 		    [class="square-container"] {
 			width:100%;
@@ -210,22 +194,22 @@
 			grid-template-columns: repeat(1, 100%);
 		    }
 	    }
-
+*/
             .menutile {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
             }
 
-	    .project-image {
-		width:100%;
-		height: 100%;
-		object-fit: cover;
-		margin-bottom:5px;    
+            .project-image {
+              width:100%;
+              height: 100%;
+              object-fit: cover;
+              margin-bottom:5px;    
             }
 
             .projects-grid-selection-overlay {
-                position: absolute;
+                position:absolute;
                 top:0;
                 bottom:0;
                 left:0;
@@ -237,14 +221,14 @@
                 background-color: white;
             }
 
-            .projects-grid-item:hover .projects-grid-selection-overlay {
+            .content:hover .projects-grid-selection-overlay {
                 opacity: 1.0;
             }
 
             .projects-grid-selection-text {
+                position:absolute;
                 color: black;
                 font-size: 25px;
-                position: absolute;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
@@ -290,4 +274,5 @@
 			background-color: none;
 			text-align: right;
 		}
-        </style>
+</style>
+
