@@ -26,6 +26,9 @@
                 if (pageYOffset > sectionTop && pageYOffset <= sectionBot) {
                   current = section.getAttribute('id');
                 }
+                if (pageYOffset == 0) {
+    	            current = 'home'
+                }
               });
 
               navLi.forEach((listItem) => {
