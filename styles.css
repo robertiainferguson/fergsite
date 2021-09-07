@@ -110,7 +110,9 @@
                 font-family: Anaheim;
                 text-align: right;
                 width: 6ch;
-		            background-color:none;
+		background-color:none;
+		text-decoration:inherit;
+		color:inherit;
                 transform: translate(-6ch,0);
             }
 
