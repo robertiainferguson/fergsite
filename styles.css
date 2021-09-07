@@ -91,17 +91,6 @@
                 padding: 0;
             }
 
-            ul.selected-menu-item{
-		position:fixed;
-                font-family: Anaheim;
-                font-size: 3rem;
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-		text-decoration: underline;
-		text-decoration-color:rgb(55, 0, 255);
-            }
-
             ul.info{
 		position:fixed;
                 font-family: Anaheim;
@@ -123,13 +112,20 @@
                 transform: translate(-6ch,0);
             }
 
-            li a.menu-list {
+            .list-item {
                 text-decoration: none;
                 color: #000000;
             }
 
-            li a.menu-list:hover {
+            .list-item:hover {
                 color: rgb(55, 0, 255)
+            }
+            
+            .selected-list-item{
+		text-decoration: underline wavy;
+		text-decoration-color:rgb(55, 0, 255);
+    text-decoration-thickness: from-font;
+    color:rgb(55, 0, 255);
             }
 
             .scroll-container {
@@ -144,6 +140,7 @@
 
             #about {
                 position: absolute;
+                height:100%;
                 top:-6.4rem;
                 font-family: Anaheim;
                 font-size: 25px;
@@ -152,15 +149,17 @@
 
             #work {
                 position: absolute;
+                height:100%;
                 top:-6rem;
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 25px;
-                background-color: none;
+                background-color: blue;
             }
 
             #contact {
                 position: absolute;
+                height:100%;
                 top:-6rem;
                 padding: 0;
                 font-family: Anaheim;
@@ -170,6 +169,7 @@
 
             #blog {
                 position: absolute;
+                height:100%;
                 top:-6rem;
                 padding: 0;
                 font-family: Anaheim;
