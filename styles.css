@@ -167,12 +167,12 @@
             #cover2 {
                 color: #FFFBC0;
                 background-image: -webkit-linear-gradient(92deg, #FFFBC0, #FFC0F1);
-                -webkit-background-clip: text;
+                background-clip: text;
                 -webkit-text-fill-color: transparent;
-                -webkit-animation: hue 10s infinite linear;
+                animation: hue 10s infinite linear;
             }
             
-            @-webkit-keyframes hue {
+            @keyframes hue {
               from {
                 -webkit-filter: hue-rotate(0deg);
               }
