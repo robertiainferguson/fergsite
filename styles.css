@@ -163,6 +163,16 @@
                 padding-bottom:100px;
             }
 
+            #cover {
+                animation: blinker 1s linear infinite;
+            }
+
+            @keyframes blinker {
+                50% {
+                  opacity: 0;
+                }
+              }
+
             #home {
                 padding-top:0;
                 padding-bottom:0;
