@@ -5,50 +5,50 @@
             }
 
             body {
-		width: 100%;
-    		height:100%;
-		margin: 0;
-		padding: 0;
+                width: 100%;
+                height:100%;
+                margin: 0;
+                padding: 0;
                 background-color:none;
-		overflow-x:hidden;
+                overflow-x:hidden;
             }
 
-	    ::selection {
-		background-color:DDD4FF;
+            ::selection {
+                background-color:DDD4FF;
             }
 
-	    .site-content {
-		width:100%;
-    		height:100%;
-		margin: auto;
-		margin-top:0;
-		margin-bottom:0;
-		max-width: 1000px;
-		background-color:none;
-	    }
-	    /*
-	    .header-bar {
-		 position:fixed;
-		 margin: none;
-		 padding: none;
-		 background-image: linear-gradient(black,white);
-		 width: 100%;
-		 height: 7rem;
-		 text-align: right;
-		 z-index: 1;
+            .site-content {
+                width:100%;
+                height:100%;
+                margin: auto;
+                margin-top:0;
+                margin-bottom:0;
+                max-width: 1000px;
+                background-color:none;
+	        }
+            /*
+            .header-bar {
+                position:fixed;
+                margin: none;
+                padding: none;
+                background-image: linear-gradient(black,white);
+                width: 100%;
+                height: 7rem;
+                text-align: right;
+                z-index: 1;
             }
-     */
+        */
 
             .container-menu-list {
                 position: relative;
                 top: 3rem;
-		left: 14ch;
+		        left: 14ch;
                 margin: none;
                 padding: none;
                 width: 20rem;
                 background-color: none;
                 text-align: left;
-		z-index:1;
+		        z-index:1;
             }
 
             .projects-container {
@@ -57,20 +57,21 @@
                 margin: none;
                 padding: none;
                 width: 20rem;
-		height:auto;
+		        height:auto;
                 text-align: left;
             }
 
-	    .desc {
-	    	position:fixed;
-		font-family: Anaheim;
-		width: 20rem;
-		height:auto;
-		font-size: 1rem;
-		margin:0;
-		padding:0;
-	    }
-/*
+            .desc {
+                position:fixed;
+                font-family: Anaheim;
+                width: 20rem;
+                height:auto;
+                font-size: 1rem;
+                margin:0;
+                padding:0;
+	        }
+
+            /*
             .header-bar-text {
                 position: fixed;
                 top: 3rem;
@@ -85,7 +86,7 @@
             */
 
             ul.menu-list{
-		position:fixed;
+		        position:fixed;
                 font-family: Anaheim;
                 font-size: 3rem;
                 list-style-type: none;
@@ -94,13 +95,13 @@
             }
 
             ul.info{
-		position:fixed;
+		        position:fixed;
                 font-family: Anaheim;
                 font-size: 1rem;
                 list-style-type: none;
                 margin: 0;
                 padding: 0;
-		transform: translate(0,30rem);
+		        transform: translate(0,30rem);
             }		
 
             span.robert {
@@ -110,9 +111,9 @@
                 font-family: Anaheim;
                 text-align: right;
                 width: 6ch;
-		background-color:none;
-		text-decoration:inherit;
-		color:inherit;
+                background-color:none;
+                text-decoration:inherit;
+                color:inherit;
                 transform: translate(-6ch,0);
             }
 
@@ -135,7 +136,7 @@
             .scroll-container {
                 position:relative;
                 top: 6rem;
-		margin-left:23rem;
+		        margin-left:23rem;
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 2rem;
@@ -149,12 +150,12 @@
                 height:auto;
                 font-family: Anaheim;
                 font-size: 25px;
-		background-color: none;
+		        background-color: none;
                 padding-bottom:100px;
             }
     
             #about {
-	      padding-top:0;
+	            padding-top:0;
             }
 
             #work {
