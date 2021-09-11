@@ -164,6 +164,7 @@
             }
 
             #cover {
+                color:white;
                 animation: blinker 2s linear infinite;
             }
 
