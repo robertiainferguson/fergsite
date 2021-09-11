@@ -152,6 +152,15 @@
 		        background-color: none;
                 padding-bottom:100px;
             }
+
+            .container-content-header {
+                position:relative;
+                width:100%;
+                height:auto;
+                font-family: Anaheim;
+                font-size: 25px;
+		        background-color: none;
+            }
     
             #about {
             }
