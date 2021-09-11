@@ -173,7 +173,6 @@
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 animation: hue 10s infinite linear,
-                    blinker 2s linear infinite;
             }
             
             @keyframes hue {
