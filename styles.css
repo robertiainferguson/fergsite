@@ -168,7 +168,7 @@
                 color: #FFFBC0;
                 background-image: -webkit-linear-gradient(92deg, #FFFBC0, #FFC0F1);
                 background-clip: text;
-                -webkit-text-fill-color: transparent;
+                color: transparent;
                 animation: hue 10s infinite linear;
             }
             
