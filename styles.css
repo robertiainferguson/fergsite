@@ -19,7 +19,7 @@
                 margin: 0;
                 padding: 0;
                 background-color:grey;
-                z-index:3;
+                /*z-index:3;*/
             }
 
             ::selection {
