@@ -184,7 +184,7 @@
             
             @keyframes blinker {
                 50% {
-                  color:white;
+                  opacity: 0.25;
                 }
               }
 
