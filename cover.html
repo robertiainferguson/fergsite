@@ -18,7 +18,7 @@
 
           $('body').css('display', 'none');
           $('body').fadeIn(250);
-          $('.home, .content a').click(function(event) {
+          $('.cover').click(function(event) {
               event.preventDefault();
               newLocation = $(this).attr("href");
               $('body').fadeOut(250, newpage);
