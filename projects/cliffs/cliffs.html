@@ -17,11 +17,11 @@
             //page fade in and fade out
 
             $('body').css('display', 'none');
-            $('body').fadeIn(1000);
+            $('body').fadeIn(500);
             $('.home').click(function(event) {
                 event.preventDefault();
                 newLocation = $('.home').attr("href");
-                $('body').fadeOut(1000, newpage);
+                $('body').fadeOut(500, newpage);
             });
             function newpage() {
                 window.location = newLocation;
