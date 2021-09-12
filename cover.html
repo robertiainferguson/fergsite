@@ -9,7 +9,25 @@
             html {
                 scroll-behavior: smooth;
             }
-  </style>
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+
+          //page fade in and fade out
+
+          $('body').css('display', 'none');
+          $('body').fadeIn(250);
+          $('.home, .content a').click(function(event) {
+              event.preventDefault();
+              newLocation = $(this).attr("href");
+              $('body').fadeOut(250, newpage);
+          });
+          function newpage() {
+              window.location = newLocation;
+          }
+      });
+    </script>
     <body>
         <div class = "cover-page">
         <div class="site-content">
