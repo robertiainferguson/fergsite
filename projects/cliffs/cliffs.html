@@ -14,6 +14,30 @@
     <script>
         $(document).ready(function () {
 
+            //page fade in and fade out
+
+            $('body').css('display', 'none');
+
+            $('body').fadeIn(1000);
+
+            $('home').click(function(event) {
+
+            event.preventDefault();
+
+            newLocation = this.href;
+
+            $('body').fadeOut(1000, newpage);
+
+            });
+
+            function newpage() {
+
+            window.location = "https://robertiainferguson.github.io/fergsite/";
+
+            }
+
+            // menu highlight on scroll
+
             const sections = document.querySelectorAll('.container-content');
             const navLi = document.querySelectorAll('ul.menu-list li a');
 
