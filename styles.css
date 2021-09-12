@@ -140,10 +140,10 @@
             }
             
             ul.menu-list li a.selected-list-item{
-              text-decoration: none;
-              text-decoration-color:none;
-	      text-decoration-thickness:none;
-              color:rgb(55, 0, 255);
+                text-decoration: none;
+                text-decoration-color:none;
+	            text-decoration-thickness:none;
+                color:rgb(55, 0, 255);
             }
 
             .scroll-container {
@@ -193,6 +193,10 @@
             #home {
                 padding-top:0;
                 padding-bottom:0;
+            }
+
+            #project {
+                padding-top:0;
             }
     
             #about {
