@@ -14,6 +14,21 @@
     <script>
         $(document).ready(function () {
 
+            //page fade in and fade out
+
+            $('body').css('display', 'none');
+            $('body').fadeIn(250);
+            $('.home, .content a').click(function(event) {
+                event.preventDefault();
+                newLocation = $('.home').attr("href");
+                $('body').fadeOut(250, newpage);
+            });
+            function newpage() {
+                window.location = newLocation;
+            }
+
+            // menu highlight on scroll
+
             const sections = document.querySelectorAll('.container-content');
             const navLi = document.querySelectorAll('ul.menu-list li a');
 
