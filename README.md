@@ -1,2 +1,3 @@
 # fergsite
-![image](/images/menutile/buckaroos.jpg)
+
+this website is a digital version of my design portfolio, and also includes a blog
