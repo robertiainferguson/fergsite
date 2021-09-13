@@ -27,7 +27,7 @@
             }
 
             ::selection {
-                background-color:DDD4FF;
+                background-color:#ececec;
             }
 
             .site-content {
@@ -203,7 +203,7 @@
             }
 
             #work {
-              padding-top:6.5rem;
+                padding-top:6.5rem;
             }
 
             #contact {
@@ -245,10 +245,10 @@
             }
 
             .project-image {
-              width:100%;
-              height: 100%;
-              object-fit: cover;
-              margin-bottom:5px;    
+                width:100%;
+                height: 100%;
+                object-fit: cover;
+                margin-bottom:5px;    
             }
 
             .projects-grid-selection-overlay {
@@ -289,24 +289,24 @@
             }
 
             .square-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-            grid-gap: 5px;
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+                grid-gap: 5px;
             }
 
             .square {
-            background: none;
-            padding-top: 100%; /* padding trick directly on the grid item */
-            box-sizing: border-box;
-            position: relative;
+                background: none;
+                padding-top: 100%; /* padding trick directly on the grid item */
+                box-sizing: border-box;
+                position: relative;
             }
 
             .square .content { /* absolutely positioned */
-            position: absolute;
-            top: 0;
-            right:0;
-            left: 0;
-            bottom: 0;
+                position: absolute;
+                top: 0;
+                right:0;
+                left: 0;
+                bottom: 0;
             }
 
             .site-footer {
