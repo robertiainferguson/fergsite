@@ -130,7 +130,6 @@
             ul.menu-list li a.selected-list-item{
                 text-decoration: none;
                 text-decoration-color:none;
-	            text-decoration-thickness:none;
                 color:rgb(55, 0, 255);
             }
 
@@ -156,6 +155,7 @@
             }
 
             #cover {
+                color:aliceblue;
                 background-image: linear-gradient(92deg, #ffeec0, #c0fbff);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
