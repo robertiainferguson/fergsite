@@ -97,12 +97,12 @@
 
             ul.info{
 		        position:fixed;
+                top: 20rem;
                 font-family: Anaheim;
                 font-size: 1rem;
                 list-style-type: none;
                 margin: 0;
                 padding: 0;
-		        transform: translate(0,20rem);
             }		
 
             span.robert {
