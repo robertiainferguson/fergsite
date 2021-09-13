@@ -86,20 +86,6 @@
                 background-color: bisque;
 	        }
 
-            /*
-            .header-bar-text {
-                position: fixed;
-                top: 3rem;
-                right: 14rem;
-                margin: none;
-                padding: none;
-                width: 25rem;
-                background-color: none;
-                text-align: right;
-		            z-index:2;
-            }
-            */
-
             ul.menu-list{
 		        position:fixed;
                 font-family: Anaheim;
