@@ -156,8 +156,7 @@
             }
 
             #cover {
-                color: #ffeec0;
-                background: linear-gradient(92deg, #ffeec0, #ecffc0, #c0ffd3 #c0fbff);
+                background-image: linear-gradient(92deg, #ffeec0, #ecffc0, #c0ffd3 #c0fbff);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 animation: hue 10s infinite linear;
