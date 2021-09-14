@@ -165,6 +165,10 @@
 
             #cover:hover {
                 color:grey;
+                background-image: none;
+                -webkit-background-clip: none;
+                -webkit-text-fill-color: grey;
+                animation: none;
             }
 
 
