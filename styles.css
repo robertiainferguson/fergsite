@@ -160,11 +160,11 @@
                 background-size: 300%;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
-                -webkit-animation: move 5s infinite alternate;
+                animation: move 5s infinite alternate;
             }
 
 
-            @-webkit-keyframes move {
+            @keyframes move {
                 0% {
                     background-position: left;
                 }
