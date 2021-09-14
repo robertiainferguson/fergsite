@@ -155,11 +155,11 @@
             }
 
             #cover {
-                color:aliceblue;
+                color:#ffeec0;
                 background-image: -webkit-linear-gradient(92deg, #ffeec0, #c0fbff);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
-                animation: hue 10s infinite linear;
+                animation: move 5s infinite alternate;
             }
             
             @keyframes hue {
@@ -169,6 +169,15 @@
               to {
                 -webkit-filter: hue-rotate(-360deg);
               }
+            }
+
+            @keyframes move {
+                0% {
+                    background-position: left;
+                }
+                100% {
+                    background-position: right;
+                }
             }
             
             @keyframes blinker {
