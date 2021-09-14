@@ -155,11 +155,10 @@
             }
 
             #cover {
-                color:#ffeec0;
-                background-image: -webkit-linear-gradient(45deg, #ffeec0, #c0fbff);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                animation: hue 5s infinite linear;
+                background-image: linear-gradient(45deg, #ffeec0, #c0fbff);
+                background-clip: text;
+                color: transparent;
+                animation: gradient 5s infinite alternate;
             }
             
             @-webkit-keyframes hue {
@@ -171,7 +170,7 @@
               }
             }
 
-            @keyframes move-gradient {
+            @keyframes gradient {
                 0% {
                     background-position: left;
                 }
