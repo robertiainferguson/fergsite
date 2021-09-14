@@ -156,7 +156,7 @@
 
             #cover {
                 color:#ffeec0;
-                background-image: -webkit-linear-gradient(45deg, #ffeec0, #c0fbff);
+                background-image: -webkit-linear-gradient(45deg, #ffeec0, #BEFFAB, #c0fbff);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 -webkit-animation: hue 5s infinite linear;
