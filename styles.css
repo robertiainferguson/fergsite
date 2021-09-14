@@ -159,7 +159,7 @@
                 background-image: -webkit-linear-gradient(45deg, #ffeec0, #c0fbff);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
-                animation: hue 5s infinite linear;
+                -webkit-animation: hue 5s infinite linear;
             }
             
             @-webkit-keyframes hue {
