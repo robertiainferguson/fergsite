@@ -157,21 +157,14 @@
             #cover {
                 color:#ffeec0;
                 background-image: -webkit-linear-gradient(45deg, #ffeec0, #BEFFAB, #c0fbff);
+                background-size: 300%;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
-                -webkit-animation: hue 5s infinite linear;
-            }
-            
-            @-webkit-keyframes hue {
-              from {
-                -webkit-filter: hue-rotate(0deg);
-              }
-              to {
-                -webkit-filter: hue-rotate(90deg);
-              }
+                -webkit-animation: move 5s infinite alternate;
             }
 
-            @-webkit-keyframes gradient {
+
+            @-webkit-keyframes move {
                 0% {
                     background-position: left;
                 }
