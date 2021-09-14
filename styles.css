@@ -163,6 +163,10 @@
                 animation: move 5s infinite alternate;
             }
 
+            #cover:hover {
+                color:grey;
+            }
+
 
             @keyframes move {
                 0% {
