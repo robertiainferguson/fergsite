@@ -159,7 +159,7 @@
                 background-image: -webkit-linear-gradient(92deg, #ffeec0, #c0fbff);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
-                animation: move 5s infinite alternate;
+                animation: move-gradient 5s infinite alternate;
             }
             
             @keyframes hue {
@@ -171,7 +171,7 @@
               }
             }
 
-            @keyframes move {
+            @keyframes move-gradient {
                 0% {
                     background-position: left;
                 }
