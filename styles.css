@@ -171,7 +171,7 @@
               }
             }
 
-            @keyframes gradient {
+            @-webkit-keyframes gradient {
                 0% {
                     background-position: left;
                 }
