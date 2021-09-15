@@ -167,7 +167,7 @@
 
             #cover {
                 color:#ffeec0;
-                background-image: -webkit-linear-gradient(45deg, #ffe9ab, #a4f7fd);
+                background-image: -webkit-linear-gradient( #ffe9ab, #a4f7fd);
                 background-size: 300%;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
