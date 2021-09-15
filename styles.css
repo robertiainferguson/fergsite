@@ -95,7 +95,7 @@
                 padding: 0;
             }
 
-            ul.info{
+            ul.info-2{
 		        position:absolute;
                 bottom: 6rem;
                 font-family: Anaheim;
@@ -105,7 +105,7 @@
                 padding: 0;
             }	
             
-            ul.info-2{
+            ul.info{
 		        position:fixed;
                 top: 25rem;
                 font-family: Anaheim;
