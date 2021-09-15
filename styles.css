@@ -115,6 +115,10 @@
             }
 */
 
+            span.robert {
+                visibility: hidden;
+            }
+
             ul.menu-list li a:hover {
                 color: rgb(55, 0, 255)
             }
