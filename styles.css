@@ -117,6 +117,7 @@
 
             span.robert {
                 visibility: hidden;
+                pointer-events:none;
             }
 
             ul.menu-list li a:hover {
