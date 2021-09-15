@@ -100,7 +100,7 @@
                 margin: 0;
                 padding: 0;
             }	
-/*
+
             span.robert {
                 position:fixed;
                 margin: none;
@@ -113,13 +113,13 @@
                 color:inherit;
                 transform: translate(-6ch,0);
             }
-*/
 
+/*
             span.robert {
                 visibility: hidden;
                 pointer-events:none;
             }
-
+*/
             ul.menu-list li a:hover {
                 color: rgb(55, 0, 255)
             }
