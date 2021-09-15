@@ -116,7 +116,7 @@
 */
 
             span.robert {
-                display:none;
+                visibility:hidden;
             }
 
             ul.menu-list li a:hover {
