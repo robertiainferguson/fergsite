@@ -100,7 +100,7 @@
                 margin: 0;
                 padding: 0;
             }	
-
+/*
             span.robert {
                 position:fixed;
                 margin: none;
@@ -112,6 +112,11 @@
                 text-decoration:inherit;
                 color:inherit;
                 transform: translate(-6ch,0);
+            }
+*/
+
+            span.robert {
+                display:hidden;
             }
 
             ul.menu-list li a:hover {
