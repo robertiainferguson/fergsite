@@ -183,10 +183,10 @@
 
             @keyframes move {
                 0% {
-                    background-position: left;
+                    background-position: top;
                 }
                 100% {
-                    background-position: right;
+                    background-position: bottom;
                 }
             }
             
