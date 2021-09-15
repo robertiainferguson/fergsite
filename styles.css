@@ -23,7 +23,6 @@
                 background-attachment: fixed;
                 background-size: cover;
                 overflow-x:hidden;
-                /*z-index:3;*/
             }
 
             ::selection {
@@ -61,7 +60,6 @@
                 width: 20rem;
                 background-color: yellow;
                 text-align: left;
-		        z-index:1;
             }
 
             .projects-container {
