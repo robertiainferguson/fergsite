@@ -127,7 +127,12 @@
 
 
             ul.menu-list li a:hover {
-                color: rgb(55, 0, 255);
+                color:#ffeec0;
+                background-image: -webkit-linear-gradient(45deg, #ffe18e, #8ef7ff);
+                background-size: 300%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: move 5s infinite alternate;
             }
             
             ul.menu-list li a {
@@ -136,9 +141,12 @@
             }
             
             ul.menu-list li a.selected-list-item{
-                text-decoration: none;
-                text-decoration-color:none;
-                color:rgb(55, 0, 255);
+                color:#ffeec0;
+                background-image: -webkit-linear-gradient(45deg, #ffe18e, #8ef7ff);
+                background-size: 300%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: move 5s infinite alternate;
             }
 
             .scroll-container {
