@@ -120,6 +120,11 @@
                 pointer-events:none;
             }
 
+            span.robert:hover {
+                pointer-events:none;
+                display:none;
+            }
+
 
             ul.menu-list li a:hover {
                 color: rgb(55, 0, 255)
