@@ -173,7 +173,7 @@
 
             #cover {
                 color:#ffeec0;
-                background-image: -webkit-linear-gradient(45deg, #ffe18e, #8ef7ff);
+                background-image: -webkit-linear-gradient(45deg, #ffe18e,#a1ff8e, #8ef7ff);
                 background-size: 300%;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -299,8 +299,16 @@
                 padding: 0;
             }
 
-            span.highlight {
-                color: rgb(55, 0, 255);
+            span.highlight-1 {
+                color: #ffe18e;
+            }
+
+            span.highlight-2 {
+                color:#a1ff8e;
+            }
+
+            span.highlight-3 {
+                color:#8ef7ff;
             }
 
             .square-container {
