@@ -348,7 +348,7 @@
 
             .cover-blurb {
                 position:fixed;
-                margin-top: 15rem;
+                top: 50%;
                 margin-left: auto;
                 margin-right:auto;
                 text-align: center;
