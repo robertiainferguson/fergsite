@@ -94,6 +94,7 @@
             ul.info{
 		        position:fixed;
                 top: 28rem;
+                color:#565656;
                 font-family: Anaheim;
                 font-size: 1rem;
                 list-style-type: none;
@@ -339,4 +340,13 @@
                 font-size: 1rem;
                 background-color: none;
                 text-align: right;
+            }
+
+            .cover-blurb {
+                position:absolute;
+                top:20rem;
+                text-align: center;
+                color:#565656;
+                font-family: Anaheim;
+                font-size: 1rem;
             }
