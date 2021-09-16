@@ -301,15 +301,18 @@
             }
 
             span.highlight-1 {
-                background-color: #ffe18e;
+                text-decoration-color: #ffe18e;
+                text-decoration: underline;
             }
 
             span.highlight-2 {
-                background-color:#a1ff8e;
+                text-decoration-color: #a1ff8e;
+                text-decoration: underline;
             }
 
             span.highlight-3 {
-                background-color:#8ef7ff;
+                text-decoration-color: #8ef7ff;
+                text-decoration: underline;
             }
 
             .square-container {
