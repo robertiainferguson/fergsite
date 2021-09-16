@@ -345,6 +345,8 @@
             .cover-blurb {
                 position:absolute;
                 top:20rem;
+                margin-left: auto;
+                margin-right:auto;
                 text-align: center;
                 color:#565656;
                 font-family: Anaheim;
