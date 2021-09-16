@@ -302,17 +302,17 @@
 
             span.highlight-1 {
                 text-decoration: underline;
-                text-decoration-color: #ffe18e;
+                text-decoration-color: #ffe18e!important;
             }
 
             span.highlight-2 {
                 text-decoration: underline;
-                text-decoration-color: #a1ff8e;
+                text-decoration-color: #a1ff8e!important;
             }
 
             span.highlight-3 {
                 text-decoration: underline;
-                text-decoration-color: #8ef7ff;
+                text-decoration-color: #8ef7ff!important;
             }
 
             .square-container {
