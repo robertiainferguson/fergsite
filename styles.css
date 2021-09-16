@@ -301,15 +301,15 @@
             }
 
             span.highlight-1 {
-                color: #ffe18e;
+                background-color: #ffe18e;
             }
 
             span.highlight-2 {
-                color:#a1ff8e;
+                background-color:#a1ff8e;
             }
 
             span.highlight-3 {
-                color:#8ef7ff;
+                background-color:#8ef7ff;
             }
 
             .square-container {
