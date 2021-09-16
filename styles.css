@@ -301,18 +301,18 @@
             }
 
             span.highlight-1 {
-                text-decoration-color: #ffe18e;
                 text-decoration: underline;
+                text-decoration-color: #ffe18e;
             }
 
             span.highlight-2 {
-                text-decoration-color: #a1ff8e;
                 text-decoration: underline;
+                text-decoration-color: #a1ff8e;
             }
 
             span.highlight-3 {
-                text-decoration-color: #8ef7ff;
                 text-decoration: underline;
+                text-decoration-color: #8ef7ff;
             }
 
             .square-container {
