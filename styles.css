@@ -348,9 +348,8 @@
 
             .cover-blurb {
                 position:fixed;
-                top: 50%;
-                margin-left: auto;
-                margin-right:auto;
+                top: 40%;
+                left:50%;
                 text-align: center;
                 color:#565656;
                 font-family: Anaheim;
