@@ -301,19 +301,19 @@
             }
 
             span.highlight-1 {
-                text-decoration-style: strikethrough;
+                text-decoration: line-through;
                 text-decoration-thickness: 10px;
                 text-decoration-color: #ffe18e!important;
             }
 
             span.highlight-2 {
-                text-decoration-style: strikethrough;
+                text-decoration: line-through;
                 text-decoration-thickness: 10px;
                 text-decoration-color: #a1ff8e!important;
             }
 
             span.highlight-3 {
-                text-decoration-style: strikethrough;
+                text-decoration: line-through;
                 text-decoration-thickness: 10px;
                 text-decoration-color: #8ef7ff!important;
             }
