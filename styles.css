@@ -226,6 +226,10 @@
             #blog {
             }
 
+            #post-1 {
+                padding-top: 0;
+            }
+
             .projects-grid {
                 display: grid;
                 margin: 0;
