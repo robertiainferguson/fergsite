@@ -94,6 +94,10 @@
             li.blog-list {
                 font-size:1rem;
             }
+
+            #project-1 {
+                padding-top:0;
+            }
 /*
             span.robert {
                 position:fixed;
