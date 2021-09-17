@@ -81,7 +81,7 @@
             }
             
             ul.info{
-		        position:absolute;
+		        position:fixed;
                 top: 80%;
                 color:#565656;
                 font-family: Anaheim;
