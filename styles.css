@@ -89,7 +89,11 @@
                 list-style-type: none;
                 margin: 0;
                 padding: 0;
-            }	
+            }
+            
+            li.blog-list {
+                font-size:1rem;
+            }
 /*
             span.robert {
                 position:fixed;
