@@ -360,5 +360,6 @@
                 background-image: none;
                 -webkit-background-clip: none;
                 -webkit-text-fill-color: grey;
+                text-decoration: none;
                 animation: none;
             }
