@@ -1,9 +1,208 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="https://robertiainferguson.github.io/fergsite/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anaheim">
+        <link rel="icon" href="https://robertiainferguson.github.io/fergsite/favicon/rf_favicon.png">
     </head>
+   <style>
+            html {
+                scroll-behavior: smooth;
+            }
+  </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            //page fade in and fade out
+
+            $('body').css('display', 'none');
+            $('body').fadeIn(250);
+            $('.home, .content a').click(function(event) {
+                event.preventDefault();
+                newLocation = $(this).attr("href");
+                $('body').fadeOut(250, newpage);
+            });
+            function newpage() {
+                window.location = newLocation;
+            }
+
+            // menu highlight on scroll
+
+            const sections = document.querySelectorAll('.container-content');
+            const navLi = document.querySelectorAll('ul.menu-list li a');
+
+            window.addEventListener('scroll', () => {
+            let current = "";
+            sections.forEach((section) => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                    const sectionBot = sectionTop + sectionHeight;
+                const headerHeight = ('.robert').offsetTop;
+                if (pageYOffset > sectionTop && pageYOffset <= sectionBot) {
+                current = section.getAttribute('id');
+                }
+                if (pageYOffset == 0) {
+                    current = 'project'
+                }
+            });
+
+            navLi.forEach((listItem) => {
+                listItem.classList.remove('selected-list-item');
+                if (listItem.classList.contains(current)) {
+                listItem.classList.add('selected-list-item');
+                }
+            });
+            });
+        });
+    </script>
     <body>
-        <p>This is an example of a simple HTML page with one paragraph.</p>
+        <div class="site-content">
+            <div class = "container-menu-list">
+                <ul class = "menu-list">
+                    <li><a class = "home" href = "https://robertiainferguson.github.io/fergsite/main.html">robertferguson</a></li>
+                    <!--<li><a class = "morework" href = "#morework">.work</a></li>-->
+                    <li><a class = "project selected-list-item" href = "#project">bakersfield</a></li>
+                </ul>
+            </div>
+            <div class = "projects-container">
+                <div class = "desc">
+                    this is a little about bakersfield
+                     this is a little about bakersfield
+                     this is a little about bakersfield
+                     this is a little about bakersfield
+                     this is a little about bakersfield
+                     this is a little about bakersfield
+                     this is a little about bakersfield
+                     this is a little about bakersfield
+                     this is a little about bakersfield
+                     this is a little about bakersfield
+                </div>
+            </div>
+            <div class = "scroll-container">
+                <div class = "container-content" id = "project">
+                  <div class="w3-content w3-display-container">
+                      <img src="https://robertiainferguson.github.io/fergsite/images/menutile/buckaroos.jpg" style="width:100%" class="project-image">
+                      <img src="https://robertiainferguson.github.io/fergsite/images/menutile/spilled.JPG" style="width:100%" class="project-image">
+                  </div>
+                <br>
+                <br>
+                <div class = "container-content" id = "home">
+                    <div class="square-container">
+                      <div class="square">
+                        <div class="content">
+                            <div class = projects-grid-item href = "https://robertiainferguson.github.io/fergsite/projects/closecommons/closecommons.html">
+                                <a href = "https://robertiainferguson.github.io/fergsite/projects/closecommons/closecommons.html">
+                                    <img src="https://robertiainferguson.github.io/fergsite/images/menutile/graffiti.JPG" class="menutile" alt="woops">
+                                    <div class = "projects-grid-selection-overlay">
+                                        <div class = "projects-grid-selection-text">Close Commons</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="square">
+                        <div class="content">
+                            <div class = projects-grid-item href = "https://robertiainferguson.github.io/fergsite/projects/mothwalk/mothwalk.html">
+                                <a href = "https://robertiainferguson.github.io/fergsite/projects/mothwalk/mothwalk.html">
+                                    <img src="https://robertiainferguson.github.io/fergsite/images/menutile/grass_berm_model.JPG" class="menutile" alt="woops">
+                                    <div class = "projects-grid-selection-overlay">
+                                        <div class = "projects-grid-selection-text">Mothwalk</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="square">
+                        <div class="content">
+                            <div class = projects-grid-item href = "https://robertiainferguson.github.io/fergsite/projects/meltwine/meltwine.html">
+                            <a href = "https://robertiainferguson.github.io/fergsite/projects/meltwine/meltwine.html">
+                                <img src="https://robertiainferguson.github.io/fergsite/images/menutile/spilled.JPG" class="menutile" alt="woops">
+                                <div class = "projects-grid-selection-overlay">
+                                    <div class = "projects-grid-selection-text">Mel't Wine</div>
+                                </div>
+                            </a>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="square">
+                        <div class="content">
+                            <div class = projects-grid-item href = "https://robertiainferguson.github.io/fergsite/projects/bakersfield/bakersfield.html">
+                                <a href = "https://robertiainferguson.github.io/fergsite/projects/bakersfield/bakersfield.html">
+                                    <img src="https://robertiainferguson.github.io/fergsite/images/menutile/buckaroos.jpg" class="menutile" alt="woops">
+                                    <div class = "projects-grid-selection-overlay">
+                                        <div class = "projects-grid-selection-text">Streets of Bakersfield</div>
+                                    </div>
+                                </a>
+                            </div>                        
+                        </div>
+                      </div>
+                      <div class="square">
+                        <div class="content">
+                            <div class = projects-grid-item href = "https://robertiainferguson.github.io/fergsite/projects/cliffs/cliffs.html">
+                                <a href = "https://robertiainferguson.github.io/fergsite/projects/cliffs/cliffs.html">
+                                    <img src="https://robertiainferguson.github.io/fergsite/images/menutile/cliffs_plan.jpg" class="menutile" alt="woops">
+                                    <div class = "projects-grid-selection-overlay">
+                                        <div class = "projects-grid-selection-text">Bust & Bust</div>
+                                    </div>
+                                </a>
+                            </div>                        
+                        </div>
+                      </div>
+                      <div class="square">
+                        <div class="content">
+                            <div class = projects-grid-item href = "https://robertiainferguson.github.io/fergsite/projects/galata/galata.html">
+                                <a href = "https://robertiainferguson.github.io/fergsite/projects/galata/galata.html">
+                                    <img src="https://robertiainferguson.github.io/fergsite/images/menutile/galata.png" class="menutile" alt="woops">
+                                    <div class = "projects-grid-selection-overlay">
+                                        <div class = "projects-grid-selection-text">TerminusPlus</div>
+                                    </div>
+                                </a>
+                            </div>                        
+                        </div>
+                      </div>
+                      <div class="square">
+                        <div class="content">
+                            <div class = projects-grid-item href = "https://robertiainferguson.github.io/fergsite/projects/fifteencity/fifteencity.html">
+                                <a href = "https://robertiainferguson.github.io/fergsite/projects/fifteencity/fifteencity.html">
+                                    <img src="https://robertiainferguson.github.io/fergsite/images/menutile/midwestcity.png" class = "menutile" alt="woops">
+                                    <div class = "projects-grid-selection-overlay">
+                                        <div class = "projects-grid-selection-text">15 Minute City</div>
+                                    </div>
+                                </a>
+                            </div>                        
+                        </div>
+                      </div>
+                      <div class="square">
+                        <div class="content">
+                            <div class = projects-grid-item href = "https://robertiainferguson.github.io/fergsite/projects/houseformother/houseformother.html">
+                                <a href = "https://robertiainferguson.github.io/fergsite/projects/houseformother/houseformother.html">
+                                    <img src = "https://robertiainferguson.github.io/fergsite/images/menutile/mum.jpg" class = "menutile">
+                                    <div class = "projects-grid-selection-overlay">
+                                        <div class = "projects-grid-selection-text">Hearth to Hearth</div>
+                                    </div>
+                                </a>
+                            </div>                        
+                        </div>
+                      </div>
+                      <div class="square">
+                        <div class="content">
+                            <div class = projects-grid-item href = "https://robertiainferguson.github.io/fergsite/projects/gecekondu/gecekondu.html">
+                                <a href = "https://robertiainferguson.github.io/fergsite/projects/gecekondu/gecekondu.html">
+                                    <img src="https://robertiainferguson.github.io/fergsite/images/menutile/gecekondu_bldg.png" class="menutile" alt="woops">
+                                    <div class = "projects-grid-selection-overlay">
+                                        <div class = "projects-grid-selection-text">Gecekondu</div>
+                                    </div>
+                                </a>
+                            </div>                        
+                        </div>
+                      </div>                    
+                    </div>
+                </div>
+            </div>
+            <div class = "site-footer">website by Robert Ferguson</div>
+        </div>
     </body>
 </html>
+
+
