@@ -53,7 +53,7 @@
             .projects-container {
                 position: relative;
                 top: 12rem;
-                margin-left: 2rem;
+                margin: none;
                 padding: none;
                 width: auto;
 		        height:auto;
