@@ -35,7 +35,7 @@
                 margin: auto;
                 margin-top:0;
                 margin-bottom:0;
-                max-width: 1400px;
+                max-width: 1200px;
                 background-color:none;
 	        }
 
@@ -45,7 +45,7 @@
 		        /*left: 2rem;*/
                 margin: none;
                 padding: none;
-                width: 20rem;
+                width: auto;
                 background-color: none;
                 text-align: left;
             }
@@ -55,7 +55,7 @@
                 top: 12rem;
                 margin: none;
                 padding: none;
-                width: 8rem;
+                width: auto;
 		        height:auto;
                 text-align: left;
             }
