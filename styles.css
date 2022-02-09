@@ -356,6 +356,17 @@
                 z-index: 2;
             }
 
+            .cover-blurb-ud {
+                position:fixed;
+                top: 20%;
+                left:20%;
+                text-align: center;
+                color:#565656;
+                font-family: Anaheim;
+                font-size: 1rem;
+                z-index: 2;
+            }
+
             a.small-link {
                 color:#ffc04c;
                 background-image: -webkit-linear-gradient(45deg, #ffc04c, #46f3ff);
