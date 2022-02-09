@@ -154,10 +154,24 @@
                 -webkit-text-fill-color: transparent;
                 animation: move 5s infinite alternate;
             }
+
+            ul.menu-list-project li a:hover {
+                color:#ffc04c;
+                background-image: -webkit-linear-gradient(45deg, #ffc04c, #46f3ff);
+                background-size: 300%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: move 5s infinite alternate;
+            }
             
             ul.menu-list li a {
                 text-decoration:none;
                 color:#212121;
+            }
+
+            ul.menu-list-project li a {
+                text-decoration:none;
+                color:#21212146;
             }
             
             ul.menu-list li a.selected-list-item{
@@ -169,12 +183,13 @@
                 animation: move 5s infinite alternate;
             }
 
-            ul.project-info {
-                list-style-type: none;
-                text-decoration:none;
-                color:#212121;
-                padding: 0;
-                margin: 0;
+            ul.menu-list-project li a.selected-list-item{
+                color:#ffeec0;
+                background-image: -webkit-linear-gradient(45deg, #ffc04c, #46f3ff);
+                background-size: 300%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: move 5s infinite alternate;
             }
 
             .scroll-container {
