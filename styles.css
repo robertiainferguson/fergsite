@@ -202,10 +202,10 @@
                 height: auto;
             }
 
-            .scroll-container-flex {
+            .scroll-container-project {
                 position:relative;
                 top: 6rem;
-		        margin-left:none;
+		        margin:none;
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 2rem;
