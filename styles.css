@@ -79,11 +79,32 @@
                 margin: 0;
                 padding: 0;
             }
+
+            ul.menu-list-project{
+		        position:fixed;
+                font-family: Anaheim;
+                color: 21212146;
+                font-size: 3rem;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
             
             ul.info{
 		        position:fixed;
                 top: 70%;
                 color:#212121;
+                font-family: Anaheim;
+                font-size: 1rem;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            ul.info-project{
+		        position:fixed;
+                top: 70%;
+                color:#21212146;
                 font-family: Anaheim;
                 font-size: 1rem;
                 list-style-type: none;
