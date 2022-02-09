@@ -148,6 +148,11 @@
                 animation: move 5s infinite alternate;
             }
 
+            ul.project-info {
+                text-decoration:none;
+                color:#212121;
+            }
+
             .scroll-container {
                 position:relative;
                 top: 6rem;
