@@ -205,7 +205,8 @@
                 position:relative;
                 top: 6rem;
 		        margin:none;
-                /*margin-top: 120vh;*/
+                margin-top: 120vh;
+                background-color: none;
                 padding: 0;
                 font-family: Anaheim;
                 font-size: 2rem;
