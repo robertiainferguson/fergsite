@@ -80,6 +80,7 @@
                 padding: 0;
             }
 
+            /*
             ul.menu-list-project{
 		        position:fixed;
                 font-family: Anaheim;
@@ -89,7 +90,8 @@
                 padding: 0;
                 opacity: 1;
             }
-            
+            */
+
             ul.info{
 		        position:fixed;
                 top: 70%;
