@@ -439,17 +439,10 @@
             }
 
             .cover-blurb-ud {
-                width: 60%;
-                margin: auto;
-                top: 50%;
                 text-align: center;
                 color:#212121;
                 font-family: Anaheim;
                 font-size: 1rem;
-                z-index: 2;
-            }
-
-            .cover-blurb-ud-2 {
                 margin: 0;
                 position: absolute;
                 top: 50%;
