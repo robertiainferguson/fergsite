@@ -449,6 +449,15 @@
                 z-index: 2;
             }
 
+            .cover-blurb-ud-2 {
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+
             a.small-link {
                 color:#ffc04c;
                 background-image: -webkit-linear-gradient(45deg, #ffc04c, #46f3ff);
