@@ -25,6 +25,19 @@
                 overflow-x:hidden;
             }
 
+            .cover-page-ud {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                background-image: none;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                overflow-x:hidden;
+            }
+
             ::selection {
                 background-color:#cacaca;
             }
@@ -427,8 +440,8 @@
 
             .cover-blurb-ud {
                 position: fixed;
-                top: 20%;
-                left: 20%;
+                top: 50%;
+                left: 50%;
                 text-align: center;
                 color:#212121;
                 font-family: Anaheim;
