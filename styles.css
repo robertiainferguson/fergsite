@@ -219,7 +219,7 @@
             .scroll-container-project-blurb {
                 position:fixed;
                 top: 6rem;
-		        margin:none;
+		        margin-left:27rem;
                 background-color: none;
                 padding: 0;
                 font-family: Anaheim;
