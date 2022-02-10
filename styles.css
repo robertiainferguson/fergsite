@@ -83,7 +83,6 @@
             ul.menu-list-project{
 		        position:fixed;
                 font-family: Anaheim;
-                color: #212121;
                 font-size: 3rem;
                 list-style-type: none;
                 margin: 0;
@@ -171,7 +170,7 @@
 
             ul.menu-list-project li a {
                 text-decoration:none;
-                color:#21212146;
+                color:#212121;
             }
             
             ul.menu-list li a.selected-list-item{
