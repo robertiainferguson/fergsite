@@ -203,9 +203,9 @@
 
             .scroll-container-project {
                 position:relative;
-                top: 6rem;
+                /*top: 6rem;*/
 		        margin:none;
-                padding-top: 120vh;
+                top: 120vh;
                 background-color: none;
                 padding: 0;
                 font-family: Anaheim;
