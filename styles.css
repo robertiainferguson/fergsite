@@ -215,6 +215,17 @@
                 font-size: 2rem;
                 height: auto;
             }
+
+            .scroll-container-project-blurb {
+                position:fixed;
+                top: 6rem;
+		        margin:none;
+                background-color: none;
+                padding: 0;
+                font-family: Anaheim;
+                font-size: 2rem;
+                height: auto;
+            }
             
             .container-content {
                 padding-top: 6.3rem;
