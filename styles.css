@@ -217,7 +217,7 @@
             }
 
             .scroll-container-project-blurb {
-                position:fixed;
+                position:relative;
                 top: 6rem;
 		        margin-left:27rem;
                 background-color: none;
