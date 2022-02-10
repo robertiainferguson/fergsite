@@ -441,6 +441,7 @@
             .cover-blurb-ud {
                 position: fixed;
                 width: 50%;
+                /*top: 50%;*/
                 margin: auto;
                 text-align: center;
                 color:#212121;
