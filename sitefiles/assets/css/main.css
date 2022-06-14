@@ -2177,7 +2177,8 @@ input, select, textarea {
 		margin: 0;
 		line-height: 1em;
 		padding: 1.5em;
-		background: #39454b;
+		/*background: #39454b;*/
+		background: rgba(255, 255, 255, 0.95);
 		color: rgba(185, 186, 187, 0.5);
 		overflow: hidden;
 	}
