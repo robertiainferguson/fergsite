@@ -1312,7 +1312,7 @@ input, select, textarea {
 			position: absolute;
 			width: 96px;
 			height: 64px;
-			background: url("images/poptrox-nav.svg");
+			background: none; /*url("images/poptrox-nav.svg");*/
 			top: calc(50% - 1.5em);
 			margin: -32px 0 0 0;
 		}
