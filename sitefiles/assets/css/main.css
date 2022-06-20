@@ -1452,10 +1452,9 @@ input, select, textarea {
 			width: 50%;
 			position: relative;
 			opacity: 1.0;
-			background-color:none;
 		}
 
-		/*.article overlay{
+		.article overlay{
 			position: absolute;
 			top: 0;
 			bottom: 0;
@@ -1465,16 +1464,11 @@ input, select, textarea {
 			width: 100%;
 			opacity: 0;
 			transition: .5s ease;
-			background-color: white;
+			background-color: #f5f6f7
 		}
 
-		.article:hover .overlay{
+		.gallery article:hover .overlay{
 			opacity: 1;
-		}
-		*/
-
-		.gallery article:hover {
-			background-color:#f5f6f7
 		}
 
 			.gallery article .image {
