@@ -1454,7 +1454,7 @@ input, select, textarea {
 			opacity: 1.0;
 		}
 
-		.article overlay{
+		.gallery article overlay{
 			position: absolute;
 			top: 0;
 			bottom: 0;
