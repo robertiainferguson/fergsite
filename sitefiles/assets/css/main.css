@@ -1452,14 +1452,15 @@ input, select, textarea {
 			width: 50%;
 			position: relative;
 			opacity: 1.0;
+			background-color:none;
 		}
 
-		.article overlay{
-			/*position: absolute;
+		/*.article overlay{
+			position: absolute;
 			top: 0;
 			bottom: 0;
 			left: 0;
-			right: 0;*/
+			right: 0;
 			height: 100%;
 			width: 100%;
 			opacity: 0;
@@ -1469,6 +1470,11 @@ input, select, textarea {
 
 		.article:hover .overlay{
 			opacity: 1;
+		}
+		*/
+
+		.gallery article {
+			background-color:#f5f6f7
 		}
 
 			.gallery article .image {
