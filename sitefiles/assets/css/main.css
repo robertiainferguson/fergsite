@@ -1454,7 +1454,7 @@ input, select, textarea {
 			opacity: 1.0;
 		}
 
-		.gallery article overlay{
+		.article overlay{
 			position: absolute;
 			top: 0;
 			bottom: 0;
@@ -1467,7 +1467,7 @@ input, select, textarea {
 			background-color: white;
 		}
 
-		.gallery article:hover .overlay{
+		.article:hover .overlay{
 			opacity: 1;
 		}
 
