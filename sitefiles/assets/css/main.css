@@ -1473,7 +1473,7 @@ input, select, textarea {
 		}
 		*/
 
-		.gallery article {
+		.gallery article:hover {
 			background-color:#f5f6f7
 		}
 
