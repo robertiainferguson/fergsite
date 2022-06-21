@@ -1497,7 +1497,7 @@ input, select, textarea {
 				background-color: #008CBA;
 			}
 
-			.gallery article a:hover.tile-overlay{
+			.article:hover .tile-overlay{
 				opacity: 1;
 			}
 
