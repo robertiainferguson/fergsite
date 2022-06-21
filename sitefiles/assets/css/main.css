@@ -1459,7 +1459,7 @@ input, select, textarea {
 				display: block;
 			}
 
-			.gallery article .image:after {
+			/*.gallery article .image:after {
 				content:'\A';
 				position:absolute;
 				width:100%; height:100%;
@@ -1471,7 +1471,7 @@ input, select, textarea {
 			}
 			.gallery article .image:hover:after {
 				opacity:1;
-			}
+			}*/
 
 			.tile-text {
 				color: #39454b;
@@ -1483,6 +1483,19 @@ input, select, textarea {
 				transform: translate(-50%, -50%);
 				text-align: center;
 			  }
+
+			.tile-overlay {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				height: 100%;
+				width: 100%;
+				opacity: 0;
+				transition: .5s ease;
+				background-color: #008CBA;
+			}
 
 			.gallery article:nth-last-child(1n) {
 				-moz-transition-delay: 0.05s;
