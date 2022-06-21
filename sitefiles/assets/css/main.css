@@ -1502,7 +1502,7 @@ input, select, textarea {
 			}
 			*/
 
-			.article a .after {
+			.gallery article.after {
 				position: absolute;
 				top: 0;
 				left: 0;
@@ -1511,7 +1511,7 @@ input, select, textarea {
 				display: none;
 				color: #FFF;
 			}
-			.article a:hover .after {
+			.gallery article:hover .after {
 				display: block;
 				background: rgba(0, 0, 0, .6);
 			}
