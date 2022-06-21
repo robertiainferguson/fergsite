@@ -1497,6 +1497,10 @@ input, select, textarea {
 				background-color: #008CBA;
 			}
 
+			.gallery article a:hover.tile-overlay{
+				opacity: 1;
+			}
+
 			.gallery article:nth-last-child(1n) {
 				-moz-transition-delay: 0.05s;
 				-webkit-transition-delay: 0.05s;
