@@ -1459,7 +1459,7 @@ input, select, textarea {
 				display: block;
 			}
 
-			/*.gallery article .image:after {
+			.gallery article .image:after {
 				content:'\A';
 				position:absolute;
 				width:100%; height:100%;
@@ -1471,8 +1471,8 @@ input, select, textarea {
 			}
 			.gallery article .image:hover:after {
 				opacity:1;
-			}*/
-			/*
+			}
+			
 			.tile-text {
 				color: #39454b;
 				position: absolute;
@@ -1500,7 +1500,7 @@ input, select, textarea {
 			.article:hover .tile-overlay{
 				opacity: 1;
 			}
-			*/
+			
 
 			.gallery article a.image.fit.after {
 				position: absolute;
