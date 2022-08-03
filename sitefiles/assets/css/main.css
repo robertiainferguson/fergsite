@@ -1507,10 +1507,12 @@ input, select, textarea {
 				display: none;
 				color: #FFF;
 			}
+			/*
 			.gallery article a.image.fit:hover .after {
 				display: block;
 				background: rgba(0, 0, 0, .6);
 			}
+			*/
 
 			.gallery article:nth-last-child(1n) {
 				-moz-transition-delay: 0.05s;
