@@ -1450,7 +1450,7 @@ input, select, textarea {
 			-ms-transform: translateX(0);
 			transform: translateX(0);
 			width: 33.3%;
-			padding-top:100%;
+			height: same-as-width;
 			position: relative;
 			opacity: 1.0;
 		}
