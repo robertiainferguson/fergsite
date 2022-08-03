@@ -1457,10 +1457,9 @@ input, select, textarea {
 			padding-bottom: 2em;
 		}
 
-		.article-text {
+		.article-text::before {
 			color: #39454b;
 			background-color: none;
-			z-index: 1;
 			opacity: 0;
 			font-size: 20px;
 			position: absolute;
@@ -1472,9 +1471,8 @@ input, select, textarea {
 			text-align: center;
 		}
 
-		.article-text:hover {
+		.article-text::after {
 			color:#39454b;
-			z-index: 1;
 			opacity:1.0;
 			transition: all 0.5s;
 			-webkit-transition: all 0.5s;
@@ -1486,7 +1484,7 @@ input, select, textarea {
 				object-fit:fill;
 			}
 
-			.gallery article .image:hover {
+			.gallery article .image::after {
 				content:'\A';
 				position:absolute;
 				width:100%; height:100%;
