@@ -1455,6 +1455,7 @@ input, select, textarea {
 			height: 100%;
 			position: relative;
 			opacity: 1.0;
+			padding-bottom: 2em;
 		}
 
 		.article-text {
