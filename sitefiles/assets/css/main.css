@@ -1483,7 +1483,6 @@ input, select, textarea {
 				margin: 0;
 				display: block;
 				object-fit:fill;
-				text-align: center;
 			}
 
 			.gallery article .image:after {
