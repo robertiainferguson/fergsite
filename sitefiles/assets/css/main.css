@@ -1462,7 +1462,6 @@ input, select, textarea {
 			position: relative;
 			opacity: 1.0;
 			padding-bottom: 2em;
-			border: 5px solid #39454b;
 		}
 
 			.gallery article .image {
@@ -1492,6 +1491,7 @@ input, select, textarea {
 
 			.article-text {
 				color: #39454b;
+				background-color: #f5f6f7;
 				font-size: 20px;
 				position: absolute;
 				top: 50%;
