@@ -1457,7 +1457,7 @@ input, select, textarea {
 			padding-bottom: 2em;
 		}
 
-		.gallery article image.text {
+		.article-text {
 			color: #39454b;
 			opacity: 0;
 			font-size: 20px;
@@ -1470,7 +1470,7 @@ input, select, textarea {
 			text-align: center;
 		}
 
-		.gallery article image.text:after {
+		.article-text:after {
 			color:#39454b;
 			z-index: 1;
 			opacity:1.0;
