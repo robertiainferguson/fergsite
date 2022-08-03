@@ -1473,11 +1473,10 @@ input, select, textarea {
 				transition: all 0.5s;
 				-webkit-transition: all 0.5s;
 			}
-			/*
+
 			.gallery article .hover {
-				set to opacity 0
+				opacity:0;
 			}
-			*/
 
 			.article-text {
 				color: #39454b;
