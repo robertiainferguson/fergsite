@@ -1475,8 +1475,8 @@ input, select, textarea {
 			}
 
 			.gallery article .image:hover {
-				opacity:0;
 				background-color: #f5f6f7;
+				opacity:0;
 			}
 
 			.article-text {
