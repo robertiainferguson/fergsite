@@ -1486,7 +1486,7 @@ input, select, textarea {
 				object-fit:fill;
 			}
 
-			.gallery article .image:after {
+			.gallery article .image:hover {
 				content:'\A';
 				position:absolute;
 				width:100%; height:100%;
@@ -1496,11 +1496,12 @@ input, select, textarea {
 				transition: all 0.5s;
 				-webkit-transition: all 0.5s;
 			}
-			.gallery article .image:hover:after {
+			/*
+			.gallery article .image:hover:hover {
 				opacity:1;
 			}
-
-			.gallery article a.image.fit.after {
+			
+			.gallery article a.image.fit.hover {
 				position: absolute;
 				top: 0;
 				left: 0;
@@ -1509,6 +1510,8 @@ input, select, textarea {
 				display: none;
 				color: #FFF;
 			}
+
+			*/
 			/*
 			.gallery article a.image.fit:hover .after {
 				display: block;
