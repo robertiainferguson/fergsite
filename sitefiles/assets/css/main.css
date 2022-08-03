@@ -2342,8 +2342,15 @@ input, select, textarea {
 /* Contact */
 
 	#contact {
+		/*
 		overflow: hidden;
 		padding-bottom: 0;
+		*/
+		background: url("images/Robert_Wet.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom fill;
+		background-repeat: no-repeat;
 	}
 
 		#contact .box {
