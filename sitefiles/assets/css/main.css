@@ -1447,7 +1447,6 @@ input, select, textarea {
 	}
 
 		.gallery article {
-			/*
 			-moz-transition: -moz-transform 1s ease, opacity 1s ease;
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
@@ -1456,7 +1455,6 @@ input, select, textarea {
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			*/
 			width: 100%;
 			height: 100%;
 			position: relative;
@@ -1470,7 +1468,6 @@ input, select, textarea {
 				object-fit:fill;
 			}
 
-			/*
 			.gallery article .image:after {
 				content:'\A';
 				position:absolute;
@@ -1481,7 +1478,6 @@ input, select, textarea {
 				transition: all 0.5s;
 				-webkit-transition: all 0.5s;
 			}
-			*/
 
 			.gallery article .image:hover {
 				opacity:0;
@@ -1505,35 +1501,6 @@ input, select, textarea {
     			overflow:visible;
     			pointer-events:none;
 			}
-			/*	
-			.gallery article .image:hover.article-text {
-				color:#39454b;
-				opacity:1.0;
-				transition: all 0.5s;
-				-webkit-transition: all 0.5s;
-			}
-			
-			.gallery article .image:hover:hover {
-				opacity:1;
-			}
-			
-			.gallery article a.image.fit.hover {
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-				display: none;
-				color: #FFF;
-			}
-
-			*/
-			/*
-			.gallery article a.image.fit:hover .after {
-				display: block;
-				background: rgba(0, 0, 0, .6);
-			}
-			*/
 
 			.gallery article:nth-last-child(1n) {
 				-moz-transition-delay: 0.05s;
