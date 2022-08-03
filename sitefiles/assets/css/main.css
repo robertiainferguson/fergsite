@@ -58,9 +58,12 @@ body {
 }
 
 mark {
-	background-color: transparent;
-	color: inherit;
-}
+	background: white
+  }
+
+::selection {
+	background: rgb(255, 244, 145);
+  }
 
 input::-moz-focus-inner {
 	border: 0;
@@ -591,7 +594,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out;
-		color: #ff2b4e;
+		color: #3b80ff;
 	}
 
 	a:hover {
@@ -1501,10 +1504,6 @@ input, select, textarea {
     			overflow:visible;
     			pointer-events:none;
 			}
-
-			mark {
-				background: white
-			  }
 
 			.gallery article:nth-last-child(1n) {
 				-moz-transition-delay: 0.05s;
