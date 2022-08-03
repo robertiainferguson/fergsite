@@ -1462,6 +1462,7 @@ input, select, textarea {
 			position: relative;
 			opacity: 1.0;
 			padding-bottom: 2em;
+			border: 5px solid #39454b;
 		}
 
 			.gallery article .image {
@@ -1485,7 +1486,6 @@ input, select, textarea {
 
 			.gallery article .image:hover {
 				opacity:0;
-				border: 5px solid #39454b;
 				transition: all 0.5s;
 				-webkit-transition: all 0.5s;
 			}
