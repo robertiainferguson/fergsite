@@ -1887,7 +1887,8 @@ input, select, textarea {
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgb(162, 198, 255);
+		/*background: rgb(162, 198, 255);*/
+		background:#e5e6e7;
 		height: 3em;
 		line-height: 3em;
 		/*box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);*/
