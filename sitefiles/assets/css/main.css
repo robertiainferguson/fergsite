@@ -1459,6 +1459,7 @@ input, select, textarea {
 			.gallery article .image {
 				margin: 0;
 				display: block;
+				object-fit:cover;
 			}
 
 			.gallery article .image:after {
