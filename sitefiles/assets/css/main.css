@@ -1236,7 +1236,7 @@ input, select, textarea {
 			}
 
 /* Poptrox */
-
+/*
 	.poptrox-popup {
 		-moz-box-sizing: content-box;
 		-webkit-box-sizing: content-box;
@@ -1269,7 +1269,6 @@ input, select, textarea {
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
-				/*color: #e5e6e7;*/
 				color:rgba(255, 255, 255, 0);
 				content: '\f1ce';
 				cursor: default;
@@ -1309,7 +1308,7 @@ input, select, textarea {
 			height: 100%;
 			opacity: 0;
 			cursor: pointer;
-			background: rgba(255, 255, 255, 0); /*rgba(0, 0, 0, 0.01);*/
+			background: rgba(255, 255, 255, 0);
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 		}
 
@@ -1424,7 +1423,7 @@ input, select, textarea {
 			}
 
 		}
-
+*/
 /* Gallery */
 
 	.gallery {
