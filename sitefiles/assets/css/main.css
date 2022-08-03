@@ -963,6 +963,7 @@ input, select, textarea {
 	.image {
 		position: relative;
 		display: inline-block;
+		object-fit: cover;
 	}
 
 		.image:before {
