@@ -1504,7 +1504,6 @@ input, select, textarea {
 				height:0px;
     			overflow:visible;
     			pointer-events:none;
-    			background:white;
 			}
 			/*	
 			.gallery article .image:hover.article-text {
