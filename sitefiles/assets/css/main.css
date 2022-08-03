@@ -1470,6 +1470,7 @@ input, select, textarea {
 				object-fit:fill;
 			}
 
+			/*
 			.gallery article .image:after {
 				content:'\A';
 				position:absolute;
@@ -1477,11 +1478,10 @@ input, select, textarea {
 				top:0; left:0;
 				background-color: none;
 				opacity: 0;
-				/*
 				transition: all 0.5s;
 				-webkit-transition: all 0.5s;
-				*/
 			}
+			*/
 
 			.gallery article .image:hover {
 				opacity:0;
