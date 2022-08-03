@@ -93,7 +93,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff5df;
+		background: none;
 		height: 100%;
 		min-width: 320px;
 	}
