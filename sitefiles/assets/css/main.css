@@ -1451,7 +1451,7 @@ input, select, textarea {
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			width: 50%;
+			width: 33%;
 			height: 100%;
 			position: relative;
 			opacity: 1.0;
@@ -1472,7 +1472,7 @@ input, select, textarea {
 				opacity:0;
 				transition: all 0.5s;
 				-webkit-transition: all 0.5s;
-				/*put title text here for on hover*/
+				/*put title text here for on hover?*/
 			}
 			.gallery article .image:hover:after {
 				opacity:1;
