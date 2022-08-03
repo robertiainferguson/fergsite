@@ -1468,7 +1468,6 @@ input, select, textarea {
 				margin: 0;
 				display: block;
 				object-fit:fill;
-				z-index: 1000;
 			}
 
 			/*
@@ -1501,7 +1500,11 @@ input, select, textarea {
 				-ms-transform: translate(-50%, -50%);
 				transform: translate(-50%, -50%);
 				text-align: center;
-				z-index: 0;
+				z-index:1000;
+				height:0px;
+    			overflow:visible;
+    			pointer-events:none;
+    			background:white;
 			}
 			/*	
 			.gallery article .image:hover.article-text {
