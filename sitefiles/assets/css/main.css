@@ -1483,7 +1483,7 @@ input, select, textarea {
 
 			.article-text {
 				color: #39454b;
-				background-color: none;
+				background-color: white;
 				opacity: 0;
 				font-size: 20px;
 				position: absolute;
@@ -1494,14 +1494,14 @@ input, select, textarea {
 				transform: translate(-50%, -50%);
 				text-align: center;
 			}
-	
+			/*	
 			.gallery article .image:hover.article-text {
 				color:#39454b;
 				opacity:1.0;
 				transition: all 0.5s;
 				-webkit-transition: all 0.5s;
 			}
-			/*
+			
 			.gallery article .image:hover:hover {
 				opacity:1;
 			}
