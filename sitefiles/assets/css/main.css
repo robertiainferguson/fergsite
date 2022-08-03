@@ -2233,7 +2233,7 @@ input, select, textarea {
 		padding: 1.5em;
 		/*background: #39454b;*/
 		background: rgba(255, 255, 255, 0.95);
-		color: rgba(185, 186, 187, 0.5);
+		color: #39454b(185, 186, 187, 0.5);
 		overflow: hidden;
 	}
 
@@ -2246,7 +2246,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: #b9babb;
+				color: #3b80ff;
 			}
 
 		#footer ul.menu {
