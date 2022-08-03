@@ -1460,6 +1460,7 @@ input, select, textarea {
 		.article-text {
 			color: #39454b;
 			background-color: none;
+			z-index: 1;
 			opacity: 0;
 			font-size: 20px;
 			position: absolute;
@@ -1471,7 +1472,7 @@ input, select, textarea {
 			text-align: center;
 		}
 
-		.article-text:after {
+		.article-text:hover {
 			color:#39454b;
 			z-index: 1;
 			opacity:1.0;
