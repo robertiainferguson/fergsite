@@ -1486,7 +1486,7 @@ input, select, textarea {
 
 			.gallery article .image:hover {
 				opacity:0;
-				border: #39454b;
+				border: 5px solid #39454b;
 				transition: all 0.5s;
 				-webkit-transition: all 0.5s;
 			}
