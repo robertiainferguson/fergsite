@@ -1491,8 +1491,6 @@ input, select, textarea {
 
 			.article-text {
 				color: #39454b;
-				background-color: white;
-				opacity: 0;
 				font-size: 20px;
 				position: absolute;
 				top: 50%;
