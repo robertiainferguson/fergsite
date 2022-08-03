@@ -1458,7 +1458,7 @@ input, select, textarea {
 			height: 100%;
 			position: relative;
 			opacity: 1.0;
-			padding: 1em;
+			padding: 0.2em;
 		}
 
 			.gallery article .image {
@@ -2307,7 +2307,6 @@ input, select, textarea {
 		background-attachment:fixed;
 		background-position:bottom center;
 		background-repeat:no-repeat;
-		opacity: 0.5;
 
 /* One */
 
