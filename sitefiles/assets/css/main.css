@@ -1528,7 +1528,9 @@ input, select, textarea {
 			}
 
 			.year-box {
-				color:#3b80ff;
+				background-color:#3b80ff;
+				width:600px;
+				height:600px;
 				margin: 0;
 				display: block;
 				object-fit:fill;
