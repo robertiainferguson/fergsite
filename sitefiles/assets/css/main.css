@@ -1531,7 +1531,7 @@ input, select, textarea {
     			pointer-events:none;
 			}
 
-			.year-box {
+			.gallery article .year-box {
 				background-color:#3b80ff;
 				width:600px;
 				height:600px;
