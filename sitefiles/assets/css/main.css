@@ -1581,6 +1581,25 @@ input, select, textarea {
 				top:0; left:0;
 			}
 
+			.article-text-entry {
+				color: #39454b;
+				/*font-size: 12px;*/
+				position: absolute;
+				/*
+				top: 50%;
+				left: 50%;
+				-webkit-transform: translate(-50%, -50%);
+				-ms-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+				*/
+				margin:5em;
+				text-align: left;
+				z-index:1000;
+				height:0px;
+    			overflow:visible;
+    			pointer-events:none;
+			}
+
 			.gallery article:nth-last-child(1n) {
 				-moz-transition-delay: 0.05s;
 				-webkit-transition-delay: 0.05s;
