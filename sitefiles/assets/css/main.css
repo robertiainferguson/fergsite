@@ -2312,6 +2312,17 @@ input, select, textarea {
 		background-attachment:fixed;
 		background-position:bottom center;
 		background-repeat:no-repeat;
+	}
+
+	#info {
+		/*background: url("images/overlay.png"), url("images/fulls/farns_sketch_1.jpg");*/
+		/*background: rgba(255, 255, 255, 0.95); rgb(111, 190, 255);*/
+		background: none;
+		background-size:cover;
+		background-attachment:fixed;
+		background-position:bottom center;
+		background-repeat:no-repeat;
+	}
 
 /* One */
 
