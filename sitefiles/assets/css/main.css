@@ -1501,7 +1501,7 @@ input, select, textarea {
 				-ms-transform: translate(-50%, -50%);
 				transform: translate(-50%, -50%);
 				*/
-				bottom:1em;
+				bottom:0.1em;
 				left:0.2em;
 				text-align: left;
 				z-index:1000;
