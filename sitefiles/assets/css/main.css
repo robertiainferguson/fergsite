@@ -1527,8 +1527,8 @@ input, select, textarea {
     			pointer-events:none;
 			}
 
-			.gallery article year-box {
-				background-color:#3b80ff;
+			.gallery article .year-box {
+				color:#3b80ff;
 				margin: 0;
 				display: block;
 				object-fit:fill;
