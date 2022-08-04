@@ -1511,12 +1511,12 @@ input, select, textarea {
     			pointer-events:none;
 			}
 
-			.article-text-year {
+			.gallery article .article-text-year {
 				color: #39454b;
 				/*font-size: 12px;*/
 				position: absolute;
-				top: 50%;
 				left: 50%;
+				top: 50%;
 				-webkit-transform: translate(-50%, -50%);
 				-ms-transform: translate(-50%, -50%);
 				transform: translate(-50%, -50%);
