@@ -1454,10 +1454,11 @@ input, select, textarea {
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			width: 100%;
+			width: 50%;
 			height: 100%;
 			position: relative;
 			opacity: 1.0;
+			padding:0.2em;
 			padding-bottom: 2em;
 		}
 
