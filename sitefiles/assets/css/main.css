@@ -173,7 +173,7 @@ input, select, textarea {
 	}
 
 /* Loader */
-
+/*removes spinner vis!
 	@-moz-keyframes spinner-show {
 		0% {
 			opacity: 0;
@@ -417,6 +417,7 @@ input, select, textarea {
 			z-index: -1;
 		}
 	}
+	*/
 
 	body {
 		text-decoration: none;
