@@ -1597,6 +1597,20 @@ input, select, textarea {
 				line-height: 1em;
 			}
 
+			.previous {
+				text-align:left;
+				position:absolute;
+				left:0;
+				margin-left:0.2em;
+			}
+
+			.next {
+				text-align:right;
+				position:absolute;
+				right:0;
+				margin-right:0.2em;
+			}
+
 			.gallery article:nth-last-child(1n) {
 				-moz-transition-delay: 0.05s;
 				-webkit-transition-delay: 0.05s;
