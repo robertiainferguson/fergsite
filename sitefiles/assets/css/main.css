@@ -2418,7 +2418,7 @@ input, select, textarea {
 	#intro {
 		/*background: url("images/overlay.png"), url("images/fulls/farns_sketch_1.jpg");*/
 		/*background: rgba(255, 255, 255, 0.95); rgb(111, 190, 255);*/
-		background: url("fulls/RF_Profile_Pic_Keji.jpg");
+		background: url("robertiainferguson/fergsite/sitefiles/images/fulls/RF_Profile_Pic_Keji.jpg");
 		background-size:cover;
 		background-attachment:fixed;
 		background-position:bottom center;
