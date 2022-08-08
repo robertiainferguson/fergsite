@@ -1576,7 +1576,7 @@ input, select, textarea {
 				top:0; left:0;
 			}
 
-			.gallery article-text-entry {
+			.article-text-entry {
 				color: #39454b;
 				/*font-size: 12px;*/
 				position: absolute;
