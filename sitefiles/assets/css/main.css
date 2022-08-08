@@ -1988,7 +1988,7 @@ input, select, textarea {
 		background:#e5e6e7;
 		height: 3em;
 		line-height: 3em;
-		/*box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);*/
+		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
 	}
 
 		#header h1 {
