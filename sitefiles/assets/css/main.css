@@ -1601,6 +1601,7 @@ input, select, textarea {
 				height:0px;
     			overflow:visible;
     			pointer-events:none;
+				line-height: 1em;
 			}
 
 			.gallery article:nth-last-child(1n) {
