@@ -1576,7 +1576,7 @@ input, select, textarea {
 				top:0; left:0;
 			}
 
-			.article-text-entry {
+			.gallery article-text-entry {
 				color: #39454b;
 				/*font-size: 12px;*/
 				position: absolute;
@@ -1587,7 +1587,7 @@ input, select, textarea {
 				-ms-transform: translate(-50%, -50%);
 				transform: translate(-50%, -50%);
 				*/
-				margin:5em;
+				/*margin:5em;*/
 				padding:5em;
 				text-align: left;
 				z-index:1000;
