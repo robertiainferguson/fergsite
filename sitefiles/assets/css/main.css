@@ -1601,14 +1601,12 @@ input, select, textarea {
 
 			.previous {
 				text-align:left;
-				position:absolute;
 				left:0;
 				margin-left:0.2em;
 			}
 
 			.next {
 				text-align:right;
-				position:absolute;
 				right:0;
 				margin-right:0.2em;
 			}
