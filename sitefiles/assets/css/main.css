@@ -1601,6 +1601,7 @@ input, select, textarea {
 
 			.previous {
 				text-align:left;
+				position:relative;
 				left:0;
 				margin-left:0.2em;
 				display:block;
@@ -1608,6 +1609,7 @@ input, select, textarea {
 
 			.next {
 				text-align:right;
+				position:relative;
 				right:0;
 				margin-right:0.2em;
 				display:block;
