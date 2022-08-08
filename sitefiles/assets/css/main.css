@@ -1459,7 +1459,8 @@ input, select, textarea {
 			.gallery article .image {
 				margin: 0;
 				display: block;
-				object-fit:fill;
+				/*object-fit:fill;*/
+				object-fit:contain;
 				filter: none;
 				-webkit-filter: grayscale(0%);
 			}
