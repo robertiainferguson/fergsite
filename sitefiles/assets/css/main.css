@@ -1627,7 +1627,7 @@ input, select, textarea {
 			.gallery previous {
 				text-align:left;
 				position:absolute;
-				display:inline-block;
+				display:inline;
 				left:0;
 				margin-left:0.2em;
 			}
@@ -1635,7 +1635,7 @@ input, select, textarea {
 			.gallery next {
 				text-align:right;
 				position:absolute;
-				display:inline-block;
+				display:inline;
 				right:0;
 				margin-right:0.2em;
 			}
