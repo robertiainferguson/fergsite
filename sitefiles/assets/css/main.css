@@ -1466,6 +1466,7 @@ input, select, textarea {
 				margin: 0;
 				display: block;
 				object-fit:cover;
+				height:fit-content;
 				filter: none;
 				-webkit-filter: grayscale(0%);
 			}
