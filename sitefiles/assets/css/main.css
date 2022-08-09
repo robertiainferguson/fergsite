@@ -1471,6 +1471,7 @@ input, select, textarea {
 			margin-bottom: 2em;
 			overflow:hidden;
 			object-fit:cover;
+			border-color: black;
 		}
 
 			.gallery article .image {
