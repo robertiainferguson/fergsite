@@ -982,6 +982,7 @@ input, select, textarea {
 			object-fit:cover;
 			overflow:hidden;
 
+			/*may need to go in image.fit*/
 			margin-left: 50%;
 			transform: translateX(-50%);
 		}
