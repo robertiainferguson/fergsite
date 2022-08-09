@@ -981,6 +981,9 @@ input, select, textarea {
 			/*height:inherit;*/
 			object-fit:cover;
 			overflow:hidden;
+
+			margin-left: 50%;
+			transform: translateX(-50%);
 		}
 
 		.image.featured {
