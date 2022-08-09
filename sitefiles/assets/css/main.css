@@ -988,7 +988,6 @@ input, select, textarea {
 		.image.fit {
 			display:block;
 			width: 100%;
-			height: fit-content;
 			object-fit:cover;
 			overflow:hidden;
 		}
