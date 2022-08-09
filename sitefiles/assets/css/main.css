@@ -1469,8 +1469,8 @@ input, select, textarea {
 			opacity: 1.0;
 			padding:0.2em 0.2em 2em 0.2em;
 			margin-bottom: 2em;
-			/*overflow:hidden;
-			object-fit:cover;*/
+			overflow:hidden;
+			object-fit:cover;
 		}
 
 			.gallery article .image {
