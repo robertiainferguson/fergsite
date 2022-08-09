@@ -1452,6 +1452,7 @@ input, select, textarea {
 			-ms-transform: translateX(0);
 			transform: translateX(0);
 			width: 50%;
+			max-height:10em;
 			/*height: 100%;*/
 			/*height:22.5em;
 			position: relative;
