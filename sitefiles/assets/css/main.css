@@ -1612,7 +1612,7 @@ input, select, textarea {
 			.gallery previous {
 				text-align:left;
 				position:absolute;
-				display:block;
+				display:inline-block;
 				left:0;
 				margin-left:0.2em;
 			}
@@ -1620,7 +1620,7 @@ input, select, textarea {
 			.gallery next {
 				text-align:right;
 				position:absolute;
-				display:block;
+				display:inline-block;
 				right:0;
 				margin-right:0.2em;
 			}
