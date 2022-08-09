@@ -1629,16 +1629,14 @@ input, select, textarea {
 				text-align:left;
 				position:absolute;
 				display:inline;
-				left:0;
-				margin-left:0.2em;
+				left:0.1em;
 			}
 
 			.gallery next {
 				text-align:right;
 				position:absolute;
 				display:inline;
-				right:0;
-				margin-right:0.2em;
+				right:0.1em;
 			}
 
 			.gallery article:nth-last-child(1n) {
