@@ -1459,7 +1459,7 @@ input, select, textarea {
 			/*display:inline-block; Added this then removed*/
 			opacity: 1.0;
 			padding:0.2em 0.2em 0.0 0.2em;
-			margin-bottom: 4em;
+			margin-bottom: 2em;
 		}
 
 			.gallery article .image {
@@ -1542,13 +1542,6 @@ input, select, textarea {
 				color: #39454b;
 				/*font-size: 12px;*/
 				position:absolute;
-				/*
-				top: 50%;
-				left: 50%;
-				-webkit-transform: translate(-50%, -50%);
-				-ms-transform: translate(-50%, -50%);
-				transform: translate(-50%, -50%);
-				*/
 				bottom:-0.1em;
 				left:0.2em;
 				text-align: left;
