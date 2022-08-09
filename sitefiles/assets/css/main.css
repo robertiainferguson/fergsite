@@ -986,7 +986,8 @@ input, select, textarea {
 		}
 
 		.image.fit {
-			/*display:block;*/
+			display:block;
+			height: inherit;
 			width: 100%;
 			object-fit:cover;
 			overflow:hidden;
