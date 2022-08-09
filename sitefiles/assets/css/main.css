@@ -1628,14 +1628,14 @@ input, select, textarea {
 
 			.previous {
 				text-align:left;
-				position:absolute;
+				position:relative;
 				display:inline;
 				float:left;
 			}
 
 			.next {
 				text-align:right;
-				position:absolute;
+				position:relative;
 				display:inline;
 				float:right;
 			}
