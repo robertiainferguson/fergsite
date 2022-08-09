@@ -1561,10 +1561,10 @@ input, select, textarea {
 				text-align: left;
 				z-index:1000;
 
-				/*
+				
 				height:0px;
     			overflow:visible;
-    			pointer-events:none;*/
+    			pointer-events:none;
 			}
 
 			.gallery article .article-text-year {
