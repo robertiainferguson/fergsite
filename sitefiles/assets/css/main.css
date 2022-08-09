@@ -1556,7 +1556,7 @@ input, select, textarea {
 				/*font-size: 12px;*/
 				/*position:relative;*/
 				display:block;
-				position:absolute;
+				position:relative;
 				/*
 				bottom:-1em;
 				*/
