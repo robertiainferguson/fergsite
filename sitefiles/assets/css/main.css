@@ -1460,6 +1460,7 @@ input, select, textarea {
 			opacity: 1.0;
 			padding:0.2em 0.2em 0.0 0.2em;
 			margin-bottom: 2em;
+			overflow:hidden;
 		}
 
 			.gallery article .image {
