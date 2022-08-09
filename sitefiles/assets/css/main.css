@@ -990,6 +990,7 @@ input, select, textarea {
 			width: 100%;
 			height: fit-content;
 			object-fit:cover;
+			overflow:hidden;
 		}
 
 		.image.left {
