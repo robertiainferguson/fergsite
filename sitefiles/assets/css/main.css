@@ -1626,14 +1626,14 @@ input, select, textarea {
     			pointer-events:none;*/
 			}
 
-			.gallery previous {
+			.previous {
 				text-align:left;
 				position:absolute;
 				display:inline;
 				float:left;
 			}
 
-			.gallery next {
+			.next {
 				text-align:right;
 				position:absolute;
 				display:inline;
