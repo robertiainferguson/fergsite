@@ -982,9 +982,10 @@ input, select, textarea {
 			object-fit:cover;
 			overflow:hidden;
 
-			/*may need to go in image.fit*/
+			/* may work to center oversized images
 			margin-left: 50%;
 			transform: translateX(-50%);
+			*/
 		}
 
 		.image.featured {
@@ -1552,6 +1553,7 @@ input, select, textarea {
 				color: #39454b;
 				/*font-size: 12px;*/
 				position:relative;
+				display:block;
 				/*display: inline;*/
 				/*
 				position:absolute;
