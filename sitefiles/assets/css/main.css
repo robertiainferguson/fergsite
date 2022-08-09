@@ -1546,8 +1546,11 @@ input, select, textarea {
 			.article-text {
 				color: #39454b;
 				/*font-size: 12px;*/
+				position:relative;
+				/*display: inline;*/
+				/*
 				position:absolute;
-				bottom:-0.1em;
+				bottom:-0.1em;*/
 				left:0.2em;
 				text-align: left;
 				z-index:1000;
