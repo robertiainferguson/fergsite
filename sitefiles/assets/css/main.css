@@ -979,7 +979,7 @@ input, select, textarea {
 			width: 100%;
 
 			/*height:inherit;*/
-			object-fit:cover;
+			object-fit:fill;
 			overflow:hidden;
 
 			/* may work to center oversized images
