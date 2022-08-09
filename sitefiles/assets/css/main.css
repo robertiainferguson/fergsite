@@ -1459,7 +1459,7 @@ input, select, textarea {
 			/*display:inline-block; Added this then removed*/
 			opacity: 1.0;
 			padding:0.2em 0.2em 0.0 0.2em;
-			margin-bottom: 2em;
+			margin-bottom: 4em;
 		}
 
 			.gallery article .image {
