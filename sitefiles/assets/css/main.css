@@ -998,6 +998,8 @@ input, select, textarea {
 			display:block;
 			height: inherit;
 			width: 100%;
+
+			/*add below back in to fix?*/
 			/*object-fit:cover;*/
 			/*overflow:hidden;*/
 		}
