@@ -978,8 +978,8 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 
-			/*height:inherit;*/
-			object-fit:fill;
+			height:inherit;
+			object-fit:cover;
 			overflow:hidden;
 
 			/* may work to center oversized images
