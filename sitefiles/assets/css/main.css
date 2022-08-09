@@ -1540,8 +1540,7 @@ input, select, textarea {
 			.article-text {
 				color: #39454b;
 				/*font-size: 12px;*/
-				/*position: absolute;*/
-				position:relative;
+				position:absolute;
 				/*
 				top: 50%;
 				left: 50%;
