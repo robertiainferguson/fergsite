@@ -1602,20 +1602,20 @@ input, select, textarea {
 				line-height: 1em;
 			}
 
-			.previous {
+			.gallery previous {
 				text-align:left;
-				position:static;
+				position:absolute;
+				display:block;
 				left:0;
 				margin-left:0.2em;
-				display: inline-block;
 			}
 
-			.next {
+			.gallery next {
 				text-align:right;
-				position:static;
+				position:absolute;
+				display:block;
 				right:0;
 				margin-right:0.2em;
-				display: inline-block;
 			}
 
 			.gallery article:nth-last-child(1n) {
