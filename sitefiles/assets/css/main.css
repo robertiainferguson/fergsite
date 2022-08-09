@@ -989,7 +989,7 @@ input, select, textarea {
 			display:block;
 			height: inherit;
 			width: 100%;
-			object-fit:contain;
+			/*object-fit:cover;*/
 			overflow:hidden;
 		}
 
@@ -1461,6 +1461,7 @@ input, select, textarea {
 			padding:0.2em 0.2em 0.0 0.2em;
 			margin-bottom: 2em;
 			overflow:hidden;
+			object-fit:cover;
 		}
 
 			.gallery article .image {
