@@ -1631,15 +1631,15 @@ input, select, textarea {
 			.previous {
 				text-align:left;
 				position:relative;
-				display:inline;
-				float:left;
+				display:inline-block;
+				width:50%;
 			}
 
 			.next {
 				text-align:right;
 				position:relative;
-				display:inline;
-				float:right;
+				display:inline-block;
+				width:50%;
 			}
 
 			.gallery article:nth-last-child(1n) {
