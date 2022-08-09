@@ -1553,8 +1553,7 @@ input, select, textarea {
 				color: #39454b;
 				/*font-size: 12px;*/
 				position:relative;
-				/*display:block;*/
-				display: inline-block;
+				display:block;
 				/*
 				position:absolute;
 				bottom:-0.1em;*/
@@ -1562,9 +1561,10 @@ input, select, textarea {
 				text-align: left;
 				z-index:1000;
 
+				/*
 				height:0px;
     			overflow:visible;
-    			pointer-events:none;
+    			pointer-events:none;*/
 			}
 
 			.gallery article .article-text-year {
