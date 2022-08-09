@@ -1601,18 +1601,18 @@ input, select, textarea {
 
 			.previous {
 				text-align:left;
-				position:relative;
+				position:absolute;
 				left:0;
 				margin-left:0.2em;
-				display:block;
+				display: inline-block;
 			}
 
 			.next {
 				text-align:right;
-				position:relative;
+				position:absolute;
 				right:0;
 				margin-right:0.2em;
-				display:block;
+				display: inline-block;
 			}
 
 			.gallery article:nth-last-child(1n) {
