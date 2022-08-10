@@ -1001,7 +1001,7 @@ input, select, textarea {
 
 			/*add below back in to fix?*/
 			object-fit:cover;
-			/*overflow:hidden;*/
+			overflow:hidden;
 		}
 
 		.image.left {
