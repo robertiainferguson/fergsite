@@ -1009,6 +1009,15 @@ input, select, textarea {
 			*/
 		}
 
+		.image.fit-wide {
+			height:100%;
+			display:block;
+			/*
+			object-fit:cover;
+			overflow:hidden;
+			*/
+		}
+
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
