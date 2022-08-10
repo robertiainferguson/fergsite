@@ -2474,7 +2474,7 @@ input, select, textarea {
 	*/
 
 	#intro {
-		background-image: url("images/overlay.png"), url("fergsite/images/fulls/01.jpg");
+		background-image: url("images/overlay.png"), url("/images/RF_Profile_Pic_Keji.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
