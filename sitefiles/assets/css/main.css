@@ -1481,7 +1481,7 @@ input, select, textarea {
 				display: block;
 
 				object-fit:cover;
-				/*height:fit-content;*/
+				height:fit-content;
 
 				filter: none;
 				-webkit-filter: grayscale(0%);
