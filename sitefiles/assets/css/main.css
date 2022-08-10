@@ -1470,8 +1470,8 @@ input, select, textarea {
 			height:16.5em;
 			position: relative;
 			opacity: 1.0;
-			padding:0.2em 0.2em 2em 0.2em;
-			/*margin-bottom: 2em;*/
+			padding:0.2em 0.2em 0em 0.2em;
+			margin-bottom: 2em;
 			overflow:hidden;
 			object-fit:cover;
 		}
