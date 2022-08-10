@@ -1476,13 +1476,11 @@ input, select, textarea {
 		}
 
 			.gallery article .image {
-				/*
 				margin: 0;
 				display: block;
 
 				object-fit:cover;
-				height:fit-content;
-				*/
+				/*height:fit-content;*/
 
 				filter: none;
 				-webkit-filter: grayscale(0%);
