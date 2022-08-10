@@ -1482,8 +1482,8 @@ input, select, textarea {
 			transform: translateX(0);
 
 			flex-grow:1;
-			flex-shrink:1;
-			flex-basis:30%
+			flex-shrink: 0;
+			flex-basis:16.5em;
 
 			/*removed for flex
 			width: 50%;
