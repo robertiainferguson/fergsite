@@ -1588,11 +1588,9 @@ input, select, textarea {
 				z-index:1000;
 
 
-				overflow:visible;
-				/*
 				height:0px;
     			overflow:visible;
-    			pointer-events:none;*/
+    			pointer-events:none;
 			}
 
 			.gallery article .article-text-year {
