@@ -978,7 +978,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 
-			/*height:inherit;*/
+			height:inherit;
 			object-fit:cover;
 			overflow:hidden;
 
@@ -996,7 +996,7 @@ input, select, textarea {
 
 		.image.fit {
 			display:block;
-			height: inherit;
+			/*height: inherit;*/
 			width: 100%;
 
 			/*add below back in to fix?*/
