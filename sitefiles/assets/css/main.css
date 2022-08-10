@@ -976,8 +976,7 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			height:inherit;
-			width:100%;
+			height:100%;
 			/*
 			height: 100%;
 			width:auto;
@@ -1002,7 +1001,7 @@ input, select, textarea {
 		}
 
 		.image.fit {
-			width:100;
+			height:100;
 			display:block;
 			/*
 			object-fit:cover;
