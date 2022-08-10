@@ -1468,6 +1468,7 @@ input, select, textarea {
 			-ms-transform: translateX(0);
 			transform: translateX(0);
 
+			background-color: #88bc82;
 
 			width: 50%;
 			height:16.5em;
