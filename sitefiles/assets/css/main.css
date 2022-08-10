@@ -1464,12 +1464,13 @@ input, select, textarea {
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
+
+
 			width: 50%;
 			height:16.5em;
 			position: relative;
-			/*display:inline-block; Added this then removed*/
 			opacity: 1.0;
-			padding:0.2em 0.2em 0em 0.2em;
+			padding:0.2em 0.2em 2em 0.2em;
 			/*margin-bottom: 2em;*/
 			overflow:hidden;
 			object-fit:cover;
