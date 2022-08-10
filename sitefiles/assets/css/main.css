@@ -1632,18 +1632,15 @@ input, select, textarea {
     			pointer-events:none;*/
 			}
 
-			.previous {
+			.prevnext {
 				text-align:left;
 				position:relative;
 				display:inline-block;
 				width:50%;
 			}
 
-			.next {
-				text-align:right;
-				position:relative;
-				display:inline-block;
-				width:50%;
+			.prevnext:hover {
+				color:#3b80ff;
 			}
 
 			.gallery article:nth-last-child(1n) {
