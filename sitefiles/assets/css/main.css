@@ -994,6 +994,11 @@ input, select, textarea {
 			*/
 		}
 
+		.image img-wide {
+			display: block;
+			width:100%;
+		}
+
 		.image.featured {
 			display: block;
 			width: 100%;
@@ -1002,15 +1007,6 @@ input, select, textarea {
 
 		.image.fit {
 			width:100%;
-			display:block;
-			/*
-			object-fit:cover;
-			overflow:hidden;
-			*/
-		}
-
-		.image.fit-wide {
-			height:100%;
 			display:block;
 			/*
 			object-fit:cover;
