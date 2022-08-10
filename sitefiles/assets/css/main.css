@@ -1481,7 +1481,7 @@ input, select, textarea {
 			-ms-transform: translateX(0);
 			transform: translateX(0);
 
-			flex-basis:50%;
+			flex-basis:40%;
 
 			/*removed for flex
 			width: 50%;
