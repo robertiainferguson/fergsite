@@ -1463,6 +1463,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
+		flex-direction:column;
 		/*justify-content: center;*/
 		gap:0.4em;
 		width: 45em;
