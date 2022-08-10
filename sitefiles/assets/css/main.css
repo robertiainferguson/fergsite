@@ -1000,7 +1000,7 @@ input, select, textarea {
 			width: 100%;
 
 			/*add below back in to fix?*/
-			/*object-fit:cover;*/
+			object-fit:cover;
 			/*overflow:hidden;*/
 		}
 
