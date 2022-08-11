@@ -1482,7 +1482,7 @@ input, select, textarea {
 			transform: translateX(0);
 
 			flex: 1 1 auto; /* or flex: auto; */
-  			width:50%;
+  			height:16.5em;
   			cursor: pointer;
   			position: relative;
 
