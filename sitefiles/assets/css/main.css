@@ -2522,7 +2522,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/van-sketch.png");
+		background: url("../images/van-sketch.png");
 		background-size:cover;
 		background-attachment:fixed;
 		background-position:bottom center;
