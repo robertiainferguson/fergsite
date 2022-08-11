@@ -979,8 +979,8 @@ input, select, textarea {
 
 		.image img {
 			object-fit: cover;
-  			max-height: 100%;
-			/*max-width: 100%;*/
+  			height:100%;
+			width:100%;
   			vertical-align: middle;
   			border-radius: 0em;
 			/*REMOVED FOR FLEX
