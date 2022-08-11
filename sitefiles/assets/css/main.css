@@ -1543,7 +1543,7 @@ input, select, textarea {
 
 			.gallery article .image:hover {
 				opacity:1.0;
-				filter:contrast(110%);
+				filter:contrast(105%);
 				transition: all 0.5s;
 				-webkit-transition: all 0.5s;
 				/*
