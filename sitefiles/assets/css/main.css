@@ -1679,6 +1679,8 @@ input, select, textarea {
 			}
 
 			.gallery-clone-prevnext {
+				position:relative;
+				display: block;
 				width: 45em;
 				max-width: 100%;
 				height: auto;
