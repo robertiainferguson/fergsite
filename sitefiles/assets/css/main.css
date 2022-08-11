@@ -2524,7 +2524,7 @@ input, select, textarea {
 		background: url("../images/van-sketch.png");
 		background-size:cover;
 		background-attachment:fixed;
-		background-position:bottom -25% center;
+		background-position:bottom center;
 		background-repeat:no-repeat;
 	}
 
