@@ -1666,7 +1666,7 @@ input, select, textarea {
 				/*font-size: 12px;*/
 				position:relative;
 				display:block;
-				bottom:-0.2em;
+				bottom:-0.1em;
 				/*left:0.1em;*/
 				text-align: left;
 				z-index:1000;
@@ -1685,11 +1685,9 @@ input, select, textarea {
 			}	
 
 			.prevnext {
-				text-align:left;
 				font-weight: bold;
-				position:relative;
-				display:inline;
-				width:50%;
+				position:absolute;
+				display:block;
 			}
 
 			.prevnext:hover {
