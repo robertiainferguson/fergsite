@@ -2522,7 +2522,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("sitefiles/assets/css/images/van-sketch.png");
+		background: url("https://github.com/robertiainferguson/fergsite/blob/7f4e1cead0de8412531b810a06701ab9a282c224/sitefiles/assets/css/images/van-sketch.png");
 		background-size:cover;
 		background-attachment:fixed;
 		background-position:bottom center;
