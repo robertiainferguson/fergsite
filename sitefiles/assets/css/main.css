@@ -1617,7 +1617,7 @@ input, select, textarea {
 				display:block;
 				position:absolute;
 				bottom:-1.5em;
-				left:0.2em;
+				left:1px;
 				text-align: left;
 				z-index:1000;
 
