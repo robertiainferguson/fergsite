@@ -980,7 +980,7 @@ input, select, textarea {
 		.image img {
 			object-fit: cover;
   			height: 100%;
-			width: 100%;
+			max-width: 100%;
   			vertical-align: middle;
   			border-radius: 0em;
 			/*REMOVED FOR FLEX
