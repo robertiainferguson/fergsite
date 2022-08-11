@@ -1523,7 +1523,7 @@ input, select, textarea {
 				object-fit:cover;
 				height:fit-content;
 				*/
-
+				opacity:0.8;
 				filter: none;
 				-webkit-filter: grayscale(0%);
 			}
@@ -1541,16 +1541,15 @@ input, select, textarea {
 				*/
 			}
 
-			/*
 			.gallery article .image:hover {
 				opacity:1.0;
 				transition: all 0.5s;
 				-webkit-transition: all 0.5s;
-				
+				/*
 				filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
 				filter: gray;
-				-webkit-filter: grayscale(100%);
-			}*/
+				-webkit-filter: grayscale(100%);*/
+			}
 
 		.gallery article-entry {
 			-moz-transition: -moz-transform 1s ease, opacity 1s ease;
@@ -1677,28 +1676,6 @@ input, select, textarea {
     			overflow:visible;
     			pointer-events:none;*/
 			}
-
-			.overlay {
-				position: absolute;
-				width: 100%;
-				height: 100%;
-				background: #3b80ff;
-				top: 0;
-				left: 0;
-				opacity:0;
-				transition: all 0.2s 0.1s ease-in-out;
-				color: #fff;
-
-				/* center overlay content */
-				display: flex;
-				align-items: center;
-				justify-content: center;
-			  }
-			  
-				/* hover */
-				.gallery article .image:hover .overlay {
-				opacity:1;
-				}
 
 			.gallery-clone-prevnext {
 				width: 45em;
