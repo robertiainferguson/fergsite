@@ -2500,7 +2500,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background-image: url("../images/van-sketch.png");
+		background: url("../images/van-sketch.png");
 		background-size:cover;
 		background-attachment:fixed;
 		background-position:bottom -25% right 50%;
