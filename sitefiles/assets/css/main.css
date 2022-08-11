@@ -1688,7 +1688,7 @@ input, select, textarea {
 				text-align:left;
 				font-weight: bold;
 				position:relative;
-				display:inline-block;
+				display:inline;
 				width:50%;
 			}
 
