@@ -1710,7 +1710,7 @@ input, select, textarea {
 				text-align:left;
 				font-weight: bold;
 				position:relative;
-				display:block;
+				display:inline-block;
 				width:50%;
 			}
 
