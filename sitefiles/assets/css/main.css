@@ -1495,6 +1495,8 @@ input, select, textarea {
   			cursor: pointer;
   			position: relative;
 
+			margin-bottom:2em;
+
 			/*removed for flex
 			width: 50%;
 			height:16.5em;
