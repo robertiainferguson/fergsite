@@ -1480,7 +1480,7 @@ input, select, textarea {
 			-ms-transform: translateX(0);
 			transform: translateX(0);
 
-			flex: 1 1 30%; /* or flex: auto; */
+			flex: 1 1 auto; /* or flex: auto; */
   			height:16.5em;
   			cursor: pointer;
   			position: relative;
