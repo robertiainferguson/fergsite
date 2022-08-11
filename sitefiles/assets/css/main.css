@@ -1695,7 +1695,7 @@ input, select, textarea {
 			  }
 			  
 				/* hover */
-				.image-gallery li:hover .overlay {
+				.gallery article .image:hover .overlay {
 				transform: scale(1);
 				}
 
