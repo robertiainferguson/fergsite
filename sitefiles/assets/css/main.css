@@ -2612,4 +2612,7 @@ input, select, textarea {
 	height: 1em;
 	width: 1em;
 	display: block;
+	background-attachment:fixed;
+	background-position:center center;
+	background-repeat:no-repeat;
 	}
