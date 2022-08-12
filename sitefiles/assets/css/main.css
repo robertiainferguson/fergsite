@@ -504,7 +504,7 @@ input, select, textarea {
 		font-family: "Source Sans Pro", "Source Sans Pro";
 		font-weight: 300;
 		font-size: 18pt;
-		line-height: 1em;
+		line-height: 1.25em;
 		color: #39454b;
 		letter-spacing: 0.025em;
 	}
@@ -545,7 +545,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 12pt;
-				line-height: 1em;
+				line-height: 1.25em;
 			}
 
 		}
@@ -2613,4 +2613,5 @@ input, select, textarea {
 	width: 1em;
 	display: block;
 	background-repeat:no-repeat;
+	filter: grayscale(100%);
 	}
