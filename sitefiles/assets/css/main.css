@@ -1664,6 +1664,16 @@ input, select, textarea {
 				line-height: 1em;
 			}
 
+			@media screen and (max-width: 736px) {
+
+				article-text-entry {
+					padding-left:3em;
+					padding-right:3em;
+				}
+	
+			}
+	
+
 			.article-text-caption {
 				color: #39454b;
 				/*font-size: 12px;*/
