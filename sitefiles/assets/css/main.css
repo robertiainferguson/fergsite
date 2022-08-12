@@ -2607,3 +2607,9 @@ input, select, textarea {
 			}
 
 		}
+.r-logo {
+	background: url('/unfolded-favicon.svg');
+	height: 1em;
+	width: 1em;
+	display: block;
+	}
