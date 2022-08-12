@@ -2112,7 +2112,8 @@ input, select, textarea {
 			}
 
 			#header h1 a:hover {
-				color:#3b80ff;
+				/*color:#3b80ff;*/
+				color:#f14a00;
 			}
 
 		#header nav {
