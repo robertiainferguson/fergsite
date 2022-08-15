@@ -2140,7 +2140,7 @@ input, select, textarea {
 			#header h1 a:hover {
 				/*color:#3b80ff;*/
 				/*color:#f14a00;*/
-				filter:hue-rotate(90deg)
+				filter:hue-rotate(115deg)
 			}
 			/*
 			#header h1 a:before {
