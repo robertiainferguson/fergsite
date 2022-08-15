@@ -2181,6 +2181,10 @@ input, select, textarea {
 						color: #3b80ff;
 					}
 
+					#header nav ul li a em:hover {
+						color: #000000;
+					}
+
 		@media screen and (max-width: 736px) {
 
 			#header {
