@@ -2184,11 +2184,22 @@ input, select, textarea {
 						outline: 0;
 					}
 
+					#header nav ul li .special {
+						display: block;
+						color: #3b80ff;
+						text-decoration: none;
+						font-weight:bold;
+						height: 3em;
+						line-height: 3em;
+						padding: 0 0.5em 0 0.5em;
+						outline: 0;
+					}
+
 					#header nav ul li a:hover {
 						color: #3b80ff;
 					}
 
-					#header nav ul li a:hover .em {
+					#header nav ul li .special:hover {
 						color: #000000;
 					}
 
