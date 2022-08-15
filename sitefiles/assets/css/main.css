@@ -2184,7 +2184,7 @@ input, select, textarea {
 						outline: 0;
 					}
 
-					#header nav ul li .special {
+					#header nav ul li a .special {
 						display: block;
 						color: #3b80ff;
 						text-decoration: none;
@@ -2199,7 +2199,7 @@ input, select, textarea {
 						color: #3b80ff;
 					}
 
-					#header nav ul li .special:hover {
+					#header nav ul li a.special:hover {
 						color: #000000;
 					}
 
