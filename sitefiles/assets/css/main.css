@@ -505,7 +505,7 @@ input, select, textarea {
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.25em;
-		color: #39454b;
+		color: #000000;
 		letter-spacing: 0.025em;
 	}
 
@@ -595,7 +595,7 @@ input, select, textarea {
 	}
 
 	a:hover {
-		color:#39454b;
+		color:#000000;
 	}
 
 	sub {
@@ -629,7 +629,7 @@ input, select, textarea {
 
 	.box {
 		background: #ffffff;
-		color: #39454b;
+		color: #000000;
 		padding: 2em;
 	}
 
@@ -865,7 +865,7 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		color: #39454b;
+		color: #000000;
 		display: block;
 		width: 100%;
 		padding: 0.65em 0.75em;
@@ -1268,7 +1268,7 @@ input, select, textarea {
 			}
 
 			table.default thead {
-				background: #39454b;
+				background: #000000;
 				color: #ffffff;
 			}
 
@@ -1617,7 +1617,7 @@ input, select, textarea {
 			*/
 
 			.article-text {
-				color: #39454b;
+				color: #000000;
 				/*font-size: 12px;*/
 				/*position:relative;*/
 				display:block;
@@ -1632,7 +1632,7 @@ input, select, textarea {
 			}
 
 			.gallery article .article-text-year {
-				color: #39454b;
+				color: #000000;
 				/*font-size: 12px;*/
 				position: absolute;
 				left: 50%;
@@ -1657,7 +1657,7 @@ input, select, textarea {
 			}
 
 			.article-text-entry {
-				color: #39454b;
+				color: #000000;
 				/*font-size: 12px;*/
 				position: relative;
 
@@ -1678,7 +1678,7 @@ input, select, textarea {
 	
 
 			.article-text-caption {
-				color: #39454b;
+				color: #000000;
 				/*font-size: 12px;*/
 				position:relative;
 				display:block;
@@ -2478,9 +2478,9 @@ input, select, textarea {
 		margin: 0;
 		line-height: 1em;
 		padding: 1.5em;
-		/*background: #39454b;*/
+		/*background: #000000;*/
 		background: rgba(255, 255, 255, 0.95);
-		color: #39454b(185, 186, 187, 0.5);
+		color: #000000(185, 186, 187, 0.5);
 		overflow: hidden;
 	}
 

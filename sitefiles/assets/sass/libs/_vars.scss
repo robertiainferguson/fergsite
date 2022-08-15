@@ -1,4 +1,4 @@
-// Misc.
+#000000// Misc.
 	$misc: (
 		z-index-base:		10000
 	);
@@ -25,11 +25,11 @@
 	$palette: (
 		bg:					#ffffff,
 		bg-alt:				#f5f6f7,
-		fg:					#39454b,
-		fg-bold:			#39454b,
+		fg:					#000000,
+		fg-bold:			#000000,
 		border:				#e5e6e7,
 		dark: (
-			bg:				#39454b,
+			bg:				#000000,
 			fg:				#ffffff,
 			fg-bold:		#ffffff,
 			border:			#ffffff
@@ -47,7 +47,7 @@
 			border:			#ffffff
 		),
 		accent3: (
-			bg:				#39454b,
+			bg:				#000000,
 			fg:				rgba(185,186,187,0.5),
 			fg-bold:		rgba(185,186,187,1),
 			border:			rgba(185,186,187,0.2)
