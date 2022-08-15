@@ -1719,7 +1719,9 @@ input, select, textarea {
 				background: #3b80ff;
 				top: 0;
 				left: 0;
-				transform: opacity(0);
+				opacity:0;
+				/*
+				transform: opacity(0);*/
 				transition: all 0.2s 0.1s ease-in-out;
 				color: #fff;
 				/*border-radius: 5px;*/
@@ -1731,7 +1733,8 @@ input, select, textarea {
 			  
 				/* hover */
 				.gallery article .image:hover .overlay {
-				transform: opacity(1);
+				/*transform: opacity(1);*/
+				opacity:1;
 				}
 
 			.gallery article:nth-last-child(1n) {
