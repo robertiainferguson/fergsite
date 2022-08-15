@@ -592,6 +592,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out;
 		color: #3b80ff;
+		text-decoration-line:none;
 	}
 
 	a:hover {
