@@ -1014,6 +1014,9 @@ input, select, textarea {
 		}
 
 		.image.fit {
+			width:100%;
+			height:100%;
+			display:block;
 			/*REMOVED FOR FLEX
 			object-fit: cover;
   			height: 100%;
@@ -1712,7 +1715,7 @@ input, select, textarea {
 			.overlay {
 				position: absolute;
 				width: 100%;
-				height: 16.5em;
+				height: 100%;
 				background: #3b80ff;
 				top: 0;
 				left: 0;
