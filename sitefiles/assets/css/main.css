@@ -2188,7 +2188,7 @@ input, select, textarea {
 						color: #3b80ff;
 					}
 
-					#header nav ul li a em:hover {
+					#header nav ul li a:hover .em {
 						color: #000000;
 					}
 
